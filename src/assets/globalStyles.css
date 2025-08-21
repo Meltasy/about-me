@@ -1,0 +1,26 @@
+:root {
+  --text-color: rgb(0, 7, 7);
+  --background-color: rgb(231, 241, 241);
+  --primary-color: rgb(34, 103, 100);
+  --primary-color-light: rgb(98, 151, 149);
+  --primary-color-dark: rgb(1, 55, 53);
+  --secondary-color: rgb(79, 44, 115);
+  --secondary-color-light: rgb(140, 113, 168);
+  --secondary-color-dark: rgb(33, 6, 61);
+  --tertiary-color: rgb(158, 167, 56);
+  --tertiary-color-light: rgb(237, 245, 158);
+  --tertiary-color-dark: rgb(82, 89, 2);
+}
+  
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--primary-color);
+  text-shadow: 2px 2px var(--primary-color-light);
+}
