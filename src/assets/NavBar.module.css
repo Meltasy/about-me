@@ -33,3 +33,20 @@
   color: var(--primary-color-light);
   background-color: var(--primary-color-dark);
 }
+
+.button {
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--primary-color-dark);
+  background-color: transparent;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--primary-color-light);
+  background-color: var(--primary-color-dark);
+}

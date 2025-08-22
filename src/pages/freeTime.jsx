@@ -1,11 +1,19 @@
+import useLanguage from '../hooks/useLanguage'
+
 function FreeTime() {
+  const { trans, translations } = useLanguage()
+
   return (
     <>
       <header>
-        <h1>Free Time</h1>
+        <h1>{trans('pages.freeTime')}</h1>
       </header>
       <main>
-        <p>Tell them about your free time activities</p>
+        <ul>
+          {translations.hobbies.map((hobby, index) => (
+            <li key={index}>{hobby}</li>
+          ))}
+        </ul>
       </main>
     </>
   )

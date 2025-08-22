@@ -1,7 +1,12 @@
 import { Link, useRouteError } from 'react-router-dom'
+import useLanguage from '../hooks/useLanguage'
 
-function ErrorPage({ title, message }) {
+function ErrorPage({ type = 'unexpected' }) {
   const error = useRouteError()
+  const { trans } = useLanguage()
+
+  const title = trans(`errors.titles.${type}`)
+  const message = trans(`errors.messages.${type}`)
 
   return (
     <div>
@@ -9,15 +14,9 @@ function ErrorPage({ title, message }) {
         <h1>{title}</h1>
       </header>
       <main>
-        <div>
-          <p>{message}</p>
-          <p>
-            <i>{error?.message || 'Unknown error'}</i>
-          </p>
-        </div>
-        <Link to='/'>
-          Take me home!
-        </Link>
+        <p>{message}</p>
+        {error && <p><i>{error.message || 'Unknown error'}</i></p>}
+        <Link to='/'>{trans('errors.homeLink') || 'Take me home!'}</Link>
       </main>
     </div>
   )

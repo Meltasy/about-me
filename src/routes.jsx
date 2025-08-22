@@ -1,3 +1,5 @@
+import { Navigate } from 'react-router-dom'
+import { LanguageProvider } from './contexts/languageContext'
 import App from './App'
 import ErrorPage from './pages/errorPage'
 import AboutMe from './pages/aboutMe'
@@ -7,34 +9,28 @@ import FreeTime from './pages/freeTime'
 const routes = [
   {
     path: '/',
-    element: <App />,
-    errorElement:
-      <ErrorPage
-        title='Oops!'
-        message='Sorry, an unexpected error has occurred.'
-      />,
+    element: <Navigate to='/en' replace />
+  },
+  {
+    path: ':lang',
+    element: (
+      <LanguageProvider>
+        <App />
+      </LanguageProvider>
+    ),
+    errorElement: (
+      <ErrorPage type='unexpected' />
+    ),
     children: [
-      {
-        index: true,
-        element: <AboutMe />
-      },
-      {
-        path: 'projects',
-        element: <Projects />
-      },
-      {
-        path: 'freetime',
-        element: <FreeTime />
-      },
-      {
-        path: '*',
-        element:
-          <ErrorPage
-            title='404 Not Found'
-            message='Sorry, page not found.'
-          />
-      }
+      { index: true, element: <AboutMe /> },
+      { path: 'projects', element: <Projects /> },
+      { path: 'freetime', element: <FreeTime /> },
+      { path: '*', element: <ErrorPage type='notFound' /> }
     ]
+  },
+  {
+    path: '*',
+    element: <ErrorPage type='notFound' />
   }
 ]
 

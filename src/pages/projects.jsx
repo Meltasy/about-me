@@ -1,11 +1,22 @@
+import useLanguage from '../hooks/useLanguage'
+
 function Projects() {
+  const { trans, translations } = useLanguage()
+
   return (
     <>
       <header>
-        <h1>Projects</h1>
+        <h1>{trans('pages.projects')}</h1>
       </header>
       <main>
-        <p>Tell them about your projects</p>
+        <ul>
+          {translations.projects.map((project) => (
+            <li key={project.id}>
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+            </li>
+          ))}
+        </ul>
       </main>
     </>
   )
