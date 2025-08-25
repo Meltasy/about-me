@@ -1,0 +1,10 @@
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { opactity: 1; }
+  50% { opactity: 1; }
+  51% { opactity: 0; }
+  100% { opactity: 0; }
+}

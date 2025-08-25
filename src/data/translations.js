@@ -12,9 +12,11 @@ const translations = {
       homeLink: 'Back to home page'
     },
     header: {
-      name: 'Melissa Vialaneix',
-      title: 'Full Stack Developer',
-      stack: 'PERN - PostgreSQL, Express, React, NodeJS'
+      name: 'Melissa Bryant Vialaneix',
+      title: 'Web Developer',
+      title1: 'Front End',
+      title2: 'Back End',
+      title3: 'Full Stack'
     },
     pages: {
       aboutMe: 'Welcome',
@@ -48,9 +50,11 @@ const translations = {
       homeLink: 'Retour à la page d\'accueil'
     },
     header: {
-      name: 'Mélissa Vialaneix',
-      title: 'Développeur Full Stack',
-      stack: 'PERN - PostgreSQL, Express, React, NodeJS'
+      name: 'Mélissa Bryant Vialaneix',
+      title: 'Développeur Web',
+      title1: 'Front End',
+      title2: 'Back End',
+      title3: 'Full Stack'
     },
     pages: {
       aboutMe: 'Accueil',
