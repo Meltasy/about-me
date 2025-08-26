@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  gap: 1rem;
+}
+
+.entryOne,
+.entryTwo,
+.entryThree,
+.entryFour {
+  display: flex;
+  gap: 1rem;
+  opacity: 0;
+  animation: enter 2s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.entryTwo {
+  animation-delay: 2s;
+}
+
+.entryThree {
+  animation-delay: 4s;
+}
+
+.entryFour {
+  animation-delay: 6s;
+}
+
+@keyframes enter {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(100%);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}

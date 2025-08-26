@@ -1,3 +1,4 @@
+import styles from '../assets/SkillsPyramid.module.css'
 import JavaScript from '../components/icons/javascript'
 import Html from '../components/icons/html'
 import Css from '../components/icons/css'
@@ -11,18 +12,26 @@ import Webpack from '../components/icons/webpack'
 
 function SkillsPyramid() {
   return (
-    <>
-      <JavaScript />
-      <Html />
-      <Css />
-      <Express />
-      <NodeJS />
-      <PostgreSQL />
-      <PrismaORM />
-      <React />
-      <ViteJS />
-      <Webpack />
-    </>
+    <div className={styles.wrapper}>
+      <div className={styles.entryOne}>
+        <JavaScript />
+      </div>
+      <div className={styles.entryTwo}>
+        <Css />
+        <Html />
+      </div>
+      <div className={styles.entryThree}>
+        <React />
+        <ViteJS />
+        <Webpack />
+      </div>
+      <div className={styles.entryFour}>
+        <Express />
+        <NodeJS />
+        <PostgreSQL />
+        <PrismaORM />
+      </div>
+    </div>
   )
 }
 

@@ -2,6 +2,7 @@ import { Navigate } from 'react-router-dom'
 import { LanguageProvider } from './contexts/languageContext'
 import App from './App'
 import ErrorPage from './pages/errorPage'
+import Welcome from './pages/welcome'
 import AboutMe from './pages/aboutMe'
 import Projects from './pages/projects'
 import FreeTime from './pages/freeTime'
@@ -22,7 +23,8 @@ const routes = [
       <ErrorPage type='unexpected' />
     ),
     children: [
-      { index: true, element: <AboutMe /> },
+      { index: true, element: <Welcome /> },
+      { path: 'aboutMe', element: <AboutMe /> },
       { path: 'projects', element: <Projects /> },
       { path: 'freetime', element: <FreeTime /> },
       { path: '*', element: <ErrorPage type='notFound' /> }

@@ -13,10 +13,16 @@
 }
   
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   color: var(--text-color);
   background-color: var(--background-color);
+}
+
+.mainApp {
+  padding-top: 60px;
+  margin: auto;
+  max-width: 80%;
 }
 
 h1 {

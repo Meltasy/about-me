@@ -20,41 +20,55 @@ function NavBar() {
 
   return (
     <nav className='wrapper'>
-      <div>
-        <NavLink
-          to={`/${lang}`}
-          className={() => {
-            const active = isAboutMeActive()
-            return active ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
-          }}
-        >
-          {trans('pages.aboutMe')}
-        </NavLink>
+      <div className='miniWrapper'>
+        <div>
+          <NavLink
+            to={`/${lang}`}
+            className={() => {
+              const active = isAboutMeActive()
+              return active ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
+            }}
+          >
+            {trans('header.name')}
+          </NavLink>
+        </div>
+        <div>
+          <button onClick={handleLanguageSwitch} className={styles.button}>
+            {language == 'en' ? '🇫🇷' : '🇬🇧'}
+          </button>
+        </div>
       </div>
-      <div>
-        <NavLink
-          to={`/${lang}/projects`}
-          className={({ isActive }) =>
-            isActive ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
-          }
-        >
-          {trans('pages.projects')}
-        </NavLink>
-      </div>
-      <div>
-        <NavLink
-          to={`/${lang}/freetime`}
-          className={({ isActive }) =>
-            isActive ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
-          }
-        >
-          {trans('pages.freeTime')}
-        </NavLink>
-      </div>
-      <div>
-        <button onClick={handleLanguageSwitch} className={styles.button}>
-          {language == 'en' ? '🇫🇷' : '🇬🇧'}
-        </button>
+      <div className='miniWrapper'>
+        <div>
+          <NavLink
+            to={`/${lang}/aboutMe`}
+            className={({ isActive }) =>
+              isActive ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
+            }
+          >
+            {trans('pages.aboutMe')}
+          </NavLink>
+        </div>
+        <div>
+          <NavLink
+            to={`/${lang}/projects`}
+            className={({ isActive }) =>
+              isActive ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
+            }
+          >
+            {trans('pages.projects')}
+          </NavLink>
+        </div>
+        <div>
+          <NavLink
+            to={`/${lang}/freetime`}
+            className={({ isActive }) =>
+              isActive ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
+            }
+          >
+            {trans('pages.freeTime')}
+          </NavLink>
+        </div>
       </div>
     </nav>
   )

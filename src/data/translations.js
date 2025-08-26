@@ -11,6 +11,11 @@ const translations = {
       },
       homeLink: 'Back to home page'
     },
+    pages: {
+      aboutMe: 'About Me',
+      projects: 'Projects',
+      freeTime: 'Hobbies'
+    },
     header: {
       name: 'Melissa Bryant Vialaneix',
       title: 'Web Developer',
@@ -18,11 +23,7 @@ const translations = {
       title2: 'Back End',
       title3: 'Full Stack'
     },
-    pages: {
-      aboutMe: 'Welcome',
-      projects: 'Projects',
-      freeTime: 'Hobbies'
-    },
+    summary: 'I am transitioning to a career as a full stack web developer after several years\' experience working as a Learning Designer, Product Manager, Writer and Editor, and several years\' experience teaching English in China and Taiwan. My decision to change career came from years of working alongside software engineers in the educational publishing industry, with a growing fascination in their work.',
     projects: [
       {
         id: 1,
@@ -49,6 +50,11 @@ const translations = {
       },
       homeLink: 'Retour à la page d\'accueil'
     },
+    pages: {
+      aboutMe: 'À Propos',
+      projects: 'Projets',
+      freeTime: 'Loisirs'
+    },
     header: {
       name: 'Mélissa Bryant Vialaneix',
       title: 'Développeur Web',
@@ -56,11 +62,7 @@ const translations = {
       title2: 'Back End',
       title3: 'Full Stack'
     },
-    pages: {
-      aboutMe: 'Accueil',
-      projects: 'Projets',
-      freeTime: 'Loisirs'
-    },
+    summary: 'Je suis en train de passer à une carrière de développeur web full stack après plusieurs années d\'expérience en tant que chef de produit, conceptrice pédagogique, écrivain et responsable d\'édition, et plusieurs années d\'expérience dans l\'enseignement de l\'anglais en Chine et à Taïwan. J\'ai décidé de changer de carrière après avoir travaillé pendant des années aux côtés d\'ingénieurs en logiciel dans le secteur de l\'édition scolaire et avoir été de plus en plus fascinée par leur travail.',
     projects: [
       {
         id: 1,

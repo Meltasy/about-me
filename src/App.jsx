@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <main>
+      <main className='mainApp'>
         <Outlet context={{ user }}/>
       </main>
     </>
