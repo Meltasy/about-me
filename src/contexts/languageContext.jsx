@@ -9,8 +9,8 @@ function LanguageProvider({ children }) {
   useEffect(() => {
     document.documentElement.lang = language
     const titles = {
-      en: 'Melissa Vialaneix - Full Stack Developer',
-      fr: 'Mélissa Vialaneix - Développeur Full Stack'
+      en: 'Melissa Vialaneix',
+      fr: 'Mélissa Vialaneix'
     }
     document.title = titles[language]
     localStorage.setItem('language', language)

@@ -17,7 +17,7 @@ const translations = {
       freeTime: 'Hobbies'
     },
     header: {
-      name: 'Melissa Bryant Vialaneix',
+      name: 'Melissa Vialaneix',
       title: 'Web Developer',
       title1: 'Front End',
       title2: 'Back End',
@@ -56,7 +56,7 @@ const translations = {
       freeTime: 'Loisirs'
     },
     header: {
-      name: 'Mélissa Bryant Vialaneix',
+      name: 'Mélissa Vialaneix',
       title: 'Développeur Web',
       title1: 'Front End',
       title2: 'Back End',

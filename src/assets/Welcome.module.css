@@ -1,8 +1,8 @@
 .wrapper {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: 2fr 1fr 1.5fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1.5fr 1fr 2fr;
 }
 
 .headingBox {
@@ -10,23 +10,32 @@
   grid-row: 1;
 }
 
-.pyramidBox {
-  grid-column: 2;
-  grid-row: 1 / 3;
-  justify-self: center;
+.cursor {
+  animation: blink 1s infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.iconsBox {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: center;
 }
 
 .summaryBox {
-  grid-column: 1 / 3;
-  grid-row: 2;
-  align-self: end;
+  grid-column: 1;
+  grid-row: 3;
   font-size: 1.4rem;
   line-height: 1.5;
 }
 
 .imageBox {
-  grid-column: 3;
-  grid-row: 1 / 3;
+  grid-column: 2;
+  grid-row: 1 / 4;
   justify-self: end;
 }
 

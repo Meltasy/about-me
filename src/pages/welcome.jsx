@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from 'react'
 import { useParams } from 'react-router-dom'
 import useLanguage from '../hooks/useLanguage'
-import SkillsPyramid from '../components/skillsPyramid'
+import SkillsIcons from '../components/skillsIcons'
 import styles from '../assets/Welcome.module.css'
 import Melissa from '../assets/images/MelissaPortrait.jpg'
 
@@ -12,6 +12,7 @@ function Welcome() {
   const [index, setIndex] = useState(0)
   const [subIndex, setSubIndex] = useState(0)
   const [deleting, setDeleting] = useState(false)
+  const [showCursor, setShowCursor] = useState(true)
   
   const titles = useMemo(() =>[
     trans('header.title1'),
@@ -21,7 +22,7 @@ function Welcome() {
 
   useEffect(() => {
     if (index === titles.length) return
-    const typingSpeed = deleting ? 60 : 120
+    const typingSpeed = deleting ? 75 : 150
     const timeout = setTimeout(() => {
       setCurrentTitle(
         titles[index].substring(0, subIndex + (deleting ? -1 : 1))
@@ -29,6 +30,7 @@ function Welcome() {
       setSubIndex(subIndex + (deleting ? -1 : 1))
       if (!deleting && subIndex === titles[index].length) {
         if (index === titles.length - 1) {
+          setShowCursor(false)
           return
         }
         setTimeout(() => setDeleting(true), 1000)
@@ -46,13 +48,14 @@ function Welcome() {
         <div className={styles.headingBox}>
           <h1>{trans('header.name')}</h1>
           <h2>
-            {lang == 'en'
-              ? currentTitle + ' ' + trans('header.title')
-              : trans('header.title') + ' ' + currentTitle}
+            {lang === 'fr' ? trans('header.title') + ' ' : ''}
+            {currentTitle}
+            {showCursor && <span className={styles.cursor}>|</span>}
+            {lang === 'en' ? ' ' + trans('header.title') : ''}
           </h2>
         </div>
-        <div className={styles.pyramidBox}>
-          <SkillsPyramid />
+        <div className={styles.iconsBox}>
+          <SkillsIcons />
         </div>
         <div className={styles.summaryBox}>
           <p>{trans('summary')}</p>
