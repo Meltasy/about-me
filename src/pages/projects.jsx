@@ -1,4 +1,7 @@
 import useLanguage from '../hooks/useLanguage'
+import styles from '../assets/Projects.module.css'
+import ProjectsCarousels from '../components/projectsCarousels'
+import { Link } from 'react-router-dom'
 
 function Projects() {
   const { trans, translations } = useLanguage()
@@ -9,11 +12,25 @@ function Projects() {
         <h1>{trans('pages.projects')}</h1>
       </header>
       <main>
-        <ul>
+        <ul className={styles.projectsWrapper}>
           {translations.projects.map((project) => (
-            <li key={project.id}>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
+            <li key={project.id} className={styles.projectWrapper}>
+              <div className={styles.textWrapper}>
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <p>This project solves these challenges by:</p>
+                <ul>
+                  {project.solutions.map((solution, index) => (
+                    <li key={index}>{solution}</li>
+                  ))}
+                </ul>
+                <p>Check out my{' '}
+                  <Link to={project.url}>
+                  {project.title}!
+                  </Link>
+                </p>
+              </div>
+              <ProjectsCarousels projectImage={project.imageKey} projectTitle={project.title}/>
             </li>
           ))}
         </ul>

@@ -28,12 +28,18 @@ const translations = {
       {
         id: 1,
         title: 'Blog App',
-        description: 'A blog with two user interfaces with an API to access the backend.'
+        description: 'Traditional blog platforms often tightly couple the content management system with the public-facing blog, creating security vulnerabilities and limiting flexibility. Content creators need separate, secure environments for writing and publishing content compared to reading and commenting on it, while maintaining a unified backend that serves both interfaces efficiently.',
+        solutions: ['Separating concerns: Distinct frontends for content creation vs. content', 'Enhanced security: Protected admin interface isolated from public blog', 'API-first approach: Flexible backend that can serve multiple clients', 'Modern authentication: JWT-based security with role-based access control', 'Scalable architecture: Modular design allowing independent scaling of components'],
+        url: 'https://blog-api-view.netlify.app/',
+        imageKey: 'blogApi'
       },
       {
         id: 2,
         title: 'Wine Cellar App',
-        description: 'An inventory management app for my wine cellar.'
+        description: 'An inventory management app for my wine cellar.',
+        solutions: [],
+        url: '',
+        imageKey: 'blogApi'
       }
     ],
     hobbies: ['Trail running', 'Growing fruit and vegetables', 'Learning languages']
@@ -67,12 +73,18 @@ const translations = {
       {
         id: 1,
         title: 'App Blog',
-        description: 'Un blog avec deux interfaces utilisateur avec une API pour accéder au backend.'
+        description: 'Un blog avec deux interfaces utilisateur avec une API pour accéder au backend.',
+        solutions: [],
+        url: '',
+        imageKey: 'blogApi'
       },
       {
         id: 2,
         title: 'App Cave à Vin',
-        description: 'Une application de gestion des stocks pour ma cave à vin.'
+        description: 'Une application de gestion des stocks pour ma cave à vin.',
+        solutions: [],
+        url: '',
+        imageKey: 'blogApi'
       }
     ],
     hobbies: ['Course de trail', 'Cultiver de fruits et légumes', 'Apprentissage des langues']
