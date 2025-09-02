@@ -1,15 +1,6 @@
 import { useEffect, useState } from 'react'
 import styles from '../assets/SkillsIcons.module.css'
-import JavaScript from '../components/icons/javascript'
-import Html from '../components/icons/html'
-import Css from '../components/icons/css'
-import Express from '../components/icons/express'
-import NodeJS from '../components/icons/nodejs'
-import PostgreSQL from '../components/icons/postgresql'
-import PrismaORM from '../components/icons/prismaorm'
-import React from '../components/icons/react'
-import ViteJS from '../components/icons/vitejs'
-import Webpack from '../components/icons/webpack'
+import { JavaScript, Html, Css, Express, NodeJS, PostgreSQL, PrismaORM, React, ViteJS, Webpack } from './icons/index'
 
 function SkillsIcons() {
   const [visibleIcons, setVisibleIcons] = useState(new Set())

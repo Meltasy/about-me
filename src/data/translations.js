@@ -1,3 +1,5 @@
+import { JavaScript, Html, Css, Express, NodeJS, PostgreSQL, PrismaORM, React, ViteJS, Webpack } from '../components/icons/index'
+
 const translations = {
   en: {
     errors: {
@@ -28,17 +30,21 @@ const translations = {
       {
         id: 1,
         title: 'Blog App',
+        previewUrl: 'https://blog-api-view.netlify.app/',
+        githubUrl: 'https://github.com/Meltasy/blog-api',
         description: 'Traditional blog platforms often tightly couple the content management system with the public-facing blog, creating security vulnerabilities and limiting flexibility. Content creators need separate, secure environments for writing and publishing content compared to reading and commenting on it, while maintaining a unified backend that serves both interfaces efficiently.',
         solutions: ['Separating concerns: Distinct frontends for content creation vs. content', 'Enhanced security: Protected admin interface isolated from public blog', 'API-first approach: Flexible backend that can serve multiple clients', 'Modern authentication: JWT-based security with role-based access control', 'Scalable architecture: Modular design allowing independent scaling of components'],
-        url: 'https://blog-api-view.netlify.app/',
+        skillsIcons: [JavaScript, React, ViteJS, NodeJS, Express, PostgreSQL, PrismaORM],
         imageKey: 'blogApi'
       },
       {
         id: 2,
         title: 'Wine Cellar App',
+        previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
+        githubUrl: 'https://github.com/Meltasy/inventory-application',
         description: 'An inventory management app for my wine cellar.',
         solutions: [],
-        url: '',
+        skillsIcons: [JavaScript, NodeJS, Express, PostgreSQL, PrismaORM],
         imageKey: 'blogApi'
       }
     ],
@@ -73,17 +79,20 @@ const translations = {
       {
         id: 1,
         title: 'App Blog',
+        previewUrl: 'https://blog-api-view.netlify.app/',
+        githubUrl: 'https://github.com/Meltasy/blog-api',
         description: 'Un blog avec deux interfaces utilisateur avec une API pour accéder au backend.',
         solutions: [],
-        url: '',
+        skillsIcons: [JavaScript, React, ViteJS, NodeJS, Express, PostgreSQL, PrismaORM],
         imageKey: 'blogApi'
       },
       {
         id: 2,
         title: 'App Cave à Vin',
-        description: 'Une application de gestion des stocks pour ma cave à vin.',
+        previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
+        githubUrl: 'https://github.com/Meltasy/inventory-application',        description: 'Une application de gestion des stocks pour ma cave à vin.',
         solutions: [],
-        url: '',
+        skillsIcons: [JavaScript, NodeJS, Express, PostgreSQL, PrismaORM],
         imageKey: 'blogApi'
       }
     ],

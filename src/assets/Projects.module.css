@@ -19,3 +19,34 @@
   max-width: 600px;
   margin: 0 auto;
 }
+
+.headWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--secondary-color-dark);
+  background-color: var(--secondary-color-light);
+  border: none;
+  padding: 0.8rem 1.6rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--secondary-color-light);
+  background-color: var(--secondary-color-dark);
+}
+
+.skillsIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
