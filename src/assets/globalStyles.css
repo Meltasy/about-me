@@ -25,10 +25,6 @@ body {
   max-width: 80%;
 }
 
-header {
-  margin-left: 1rem;
-}
-
 h1 {
   font-size: 3rem;
   color: var(--primary-color);

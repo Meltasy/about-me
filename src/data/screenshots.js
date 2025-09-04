@@ -1,9 +1,9 @@
 import { blogApi1, blogApi2, blogApi3, blogApi4, blogApi5 } from '../assets/images/blog-api'
-// import { invApp1, invApp2, invApp3, invApp4, invApp5 } from '../assets/images/inventory-app'
+import { inventoryApp1, inventoryApp2, inventoryApp3, inventoryApp4, inventoryApp5, inventoryApp6, inventoryApp7 } from '../assets/images/inventory-app'
 
 const screenshots = {
   blogApi: [blogApi1, blogApi2, blogApi3, blogApi4, blogApi5],
-  // inventoryApp: [invApp1, invApp2, invApp3, invApp4, invApp5]
+  inventoryApp: [inventoryApp1, inventoryApp2, inventoryApp3, inventoryApp4, inventoryApp5, inventoryApp6, inventoryApp7]
 }
 
 export default screenshots

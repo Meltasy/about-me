@@ -42,13 +42,29 @@ const translations = {
         title: 'Wine Cellar App',
         previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
         githubUrl: 'https://github.com/Meltasy/inventory-application',
-        description: 'An inventory management app for my wine cellar.',
-        solutions: [],
+        description: 'Personal wine collectors face significant challenges managing their collections without proper digital infrastructure. Traditional methods like spreadsheets or paper records become unwieldly as collections grow, making it difficult to track optimal drinking windows, manage inventory levels, and efficiently locate specific wines by their characteristics. Wine enthusiasts need comprehensive tracking systems that can handle complex wine data while providing intuitive search and filtering capabilities.',
+        solutions: ['Centralized inventory management: Complete digital catalog with detailed wine information and quantity tracking', 'Intelligent drinking recommendations: Automated identification of wines at peak maturity or requiring immediate consumption', 'Advanced search capabilities: Multi-criteria filtering by color, producer, region, appellation, alphabetical sorting', 'Normalized data architecture: Efficient PostgreSQL database design preventing redundancy while maintaining data integrity', 'Full lifecycle tracking: Complete CRUD operations with transaction-safe quantity updates and consumption history'],
         skillsIcons: [JavaScript, NodeJS, Express, PostgreSQL, PrismaORM],
-        imageKey: 'blogApi'
+        imageKey: 'inventoryApp'
       }
     ],
-    hobbies: ['Trail running', 'Growing fruit and vegetables', 'Learning languages']
+    solutionsIntro: 'This project solves these challenges by:',
+    hobbies: [
+      {
+        title: 'Trail running',
+        description: 'Running in the countryside helps me to relax and clear my mind, especially when I\'m working through a tricky problem. It\'s also enabled me to explore some incredible places and provided me with life-changing experiences, like the time I met a brown bear in the middle of the woods. The photos are taken in my current playground in and around Xoldokogaina, in the Pays Basque.',
+        racesIntro: 'Some of the most memorable races I\'ve taken part in are:',
+        races: ['Les Templiers - La Monna Lisa 30km, Millau', 'La Chute de Diable 50km, Québec', 'Ultra-Trail Harricana 42km, Québec']
+      },
+      {
+        title: 'Exploring the world',
+        description: ''
+      },
+      {
+        title: 'Growing fruit and vegetables',
+        description: ''
+      }
+    ]
   },
   fr: {
     errors: {
@@ -93,10 +109,24 @@ const translations = {
         githubUrl: 'https://github.com/Meltasy/inventory-application',        description: 'Une application de gestion des stocks pour ma cave à vin.',
         solutions: [],
         skillsIcons: [JavaScript, NodeJS, Express, PostgreSQL, PrismaORM],
-        imageKey: 'blogApi'
+        imageKey: 'inventoryApp'
       }
     ],
-    hobbies: ['Course de trail', 'Cultiver de fruits et légumes', 'Apprentissage des langues']
+    solutionsIntro: '',
+    hobbies: [
+      {
+        title: 'Course de trail',
+        description: ''
+      },
+      {
+        title: 'Explorer le monde',
+        description: ''
+      },
+      {
+        title: 'Cultiver de fruits et légumes',
+        description: ''
+      }
+    ]
   }
 }
 

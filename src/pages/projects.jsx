@@ -38,7 +38,7 @@ function Projects() {
                   </div>
                 </div>
                 <p>{project.description}</p>
-                <p>This project solves these challenges by:</p>
+                <p>{trans('solutionsIntro')}</p>
                 <ul>
                   {project.solutions.map((solution, index) => (
                     <li key={index}>{solution}</li>

@@ -1,4 +1,6 @@
 import useLanguage from '../hooks/useLanguage'
+import styles from '../assets/FreeTime.module.css'
+import TrailCarousel from '../components/trailCarousel'
 
 function FreeTime() {
   const { trans, translations } = useLanguage()
@@ -8,12 +10,26 @@ function FreeTime() {
       <header>
         <h1>{trans('pages.freeTime')}</h1>
       </header>
-      <main>
-        <ul>
-          {translations.hobbies.map((hobby, index) => (
-            <li key={index}>{hobby}</li>
-          ))}
-        </ul>
+      <main className={styles.hobbiesWrapper}>
+        <section className={styles.hobbyWrapper}>
+          <TrailCarousel />
+          <div className={styles.textWrapper}>
+            <h3>{translations.hobbies[0].title}</h3>
+            <p>{translations.hobbies[0].description}</p>
+            <p>{translations.hobbies[0].racesIntro}</p>
+            <ul>
+              {translations.hobbies[0].races.map((race, index) => (
+                <li key={index}>{race}</li>
+              ))}
+            </ul>
+          </div>
+        </section>
+        <section className={styles.hobbyWrapper}>
+          <h3>{translations.hobbies[1].title}</h3>
+        </section>
+        <section className={styles.hobbyWrapper}>
+          <h3>{translations.hobbies[2].title}</h3>
+        </section>
       </main>
     </>
   )
