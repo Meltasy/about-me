@@ -1,0 +1,30 @@
+.wrapper {
+  font-size: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.iconBox {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+.iconBox.visible {
+  opacity: 1;
+  animation: rotateflag 3s ease-in-out;
+}
+
+@keyframes rotateflag {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.customFlag {
+  width: 4rem;
+  height: 3rem;
+  object-fit: cover;
+}

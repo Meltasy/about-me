@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import styles from '../assets/TrailCarousel.module.css'
 import { myPlayground1, myPlayground2, myPlayground3, myPlayground4 } from '../assets/images/my-playground'
 
-function TrailCarousel({ projectImage, projectTitle }) {
+function TrailCarousel() {
   const images = [myPlayground1, myPlayground2, myPlayground3, myPlayground4]
   const [currentIndex, setCurrentIndex] = useState(0)
   const [onAutoPlay, setOnAutoPlay] = useState(true)
@@ -36,7 +36,7 @@ function TrailCarousel({ projectImage, projectTitle }) {
   }
 
   if (!images || images.length === 0) {
-    return <p>No screenshots available.</p>
+    return <p>No photos available.</p>
   }
 
   return (
@@ -52,7 +52,7 @@ function TrailCarousel({ projectImage, projectTitle }) {
         <div className={styles.imgWrapper}>
           <img
             src={images[currentIndex]}
-            alt={`${projectTitle} screenshot ${currentIndex + 1}`}
+            alt='View from Xoldokogaina, in the Pays Basque'
             className={styles.carouselImg}
             loading='lazy'
           />
@@ -71,7 +71,7 @@ function TrailCarousel({ projectImage, projectTitle }) {
             key={index}
             className={`${styles.indicator} ${index === currentIndex ? styles.active : ''}`}
             onClick={() => goToSlide(index)}
-            aria-label={`Got to image ${index + 1}`}
+            aria-label={`Go to image ${index + 1}`}
           />
         ))}
       </div>

@@ -53,8 +53,6 @@ function Welcome() {
             {showCursor && <span className={styles.cursor}>|</span>}
             {lang === 'en' ? ' ' + trans('header.title') : ''}
           </h2>
-        </div>
-        <div className={styles.iconsBox}>
           <SkillsIcons />
         </div>
         <div className={styles.summaryBox}>

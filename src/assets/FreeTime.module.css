@@ -3,7 +3,9 @@
   gap: 1rem;
 }
 
-.hobbyWrapper {
+.trailWrapper,
+.exploreWrapper,
+.growWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,3 +21,11 @@
   max-width: 600px;
   margin: 0 auto;
 }
+
+.exploreWrapper {
+  flex-direction: column;
+}
+
+/* .growWrapper {
+
+} */

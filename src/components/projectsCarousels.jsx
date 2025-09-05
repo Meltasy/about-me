@@ -71,7 +71,7 @@ function ProjectsCarousels({ projectImage, projectTitle }) {
             key={index}
             className={`${styles.indicator} ${index === currentIndex ? styles.active : ''}`}
             onClick={() => goToSlide(index)}
-            aria-label={`Got to image ${index + 1}`}
+            aria-label={`Go to image ${index + 1}`}
           />
         ))}
       </div>

@@ -25,7 +25,7 @@ const translations = {
       title2: 'Back End',
       title3: 'Full Stack'
     },
-    summary: 'I am transitioning to a career as a full stack web developer after several years\' experience working as a Learning Designer, Product Manager, Writer and Editor, and several years\' experience teaching English in China and Taiwan. My decision to change career came from years of working alongside software engineers in the educational publishing industry, with a growing fascination in their work.',
+    summary: 'Hello, I\'m Melissa. I\'ve recently changed direction in my career and have trained as a full stack web developer after working as a Learning Designer, Product Manager, Writer and Editor in educational publishing for over a decade. I\'m looking for a position within a company where I can work within a team of web developers of differing experiences, bringing with me a range of skills and experience from my previous roles. As a junior developer, I\'d love to work with more experienced developers, so that I can learn from them and grow within this new role. My love of learning and curiosity in the ever-evolving world of web development continue to drive me, with the same question always on the tip of my tongue ... What\'s the next problem for me to solve?',
     projects: [
       {
         id: 1,
@@ -54,11 +54,11 @@ const translations = {
         title: 'Trail running',
         description: 'Running in the countryside helps me to relax and clear my mind, especially when I\'m working through a tricky problem. It\'s also enabled me to explore some incredible places and provided me with life-changing experiences, like the time I met a brown bear in the middle of the woods. The photos are taken in my current playground in and around Xoldokogaina, in the Pays Basque.',
         racesIntro: 'Some of the most memorable races I\'ve taken part in are:',
-        races: ['Les Templiers - La Monna Lisa 30km, Millau', 'La Chute de Diable 50km, Québec', 'Ultra-Trail Harricana 42km, Québec']
+        races: ['Les Templiers: La Monna Lisa 30km, Millau', 'La Chute de Diable 50km, Québec', 'Ultra-Trail Harricana 42km, Québec']
       },
       {
         title: 'Exploring the world',
-        description: ''
+        description: 'Immersing myself in different cultures, learning various languages, getting to know people from different backgrounds and spending time in various places throughout the world has opened my eyes to the real world we live in. I was born in country Durham, and spent my childhood in various places throughout the UK, including Edinburgh, London, Anglesey, Cornwall and Cambridge. As soon as I finished my studies, I moved to Taiwan, then to China where I spent time in Shanghai and Chengdu. I\'ve also lived in Montreal and now I live in the Pays Basque. I\'m looking forward to moving again soon ... somewhere in France, but I\'ve yet to make my decision!'
       },
       {
         title: 'Growing fruit and vegetables',
@@ -90,7 +90,7 @@ const translations = {
       title2: 'Back End',
       title3: 'Full Stack'
     },
-    summary: 'Je suis en train de passer à une carrière de développeur web full stack après plusieurs années d\'expérience en tant que chef de produit, conceptrice pédagogique, écrivain et responsable d\'édition, et plusieurs années d\'expérience dans l\'enseignement de l\'anglais en Chine et à Taïwan. J\'ai décidé de changer de carrière après avoir travaillé pendant des années aux côtés d\'ingénieurs en logiciel dans le secteur de l\'édition scolaire et avoir été de plus en plus fascinée par leur travail.',
+    summary: '',
     projects: [
       {
         id: 1,
@@ -116,7 +116,8 @@ const translations = {
     hobbies: [
       {
         title: 'Course de trail',
-        description: ''
+        description: '',
+        races: []
       },
       {
         title: 'Explorer le monde',

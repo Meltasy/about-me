@@ -1,6 +1,7 @@
 import { NavLink, useNavigate, useParams, useLocation } from 'react-router-dom'
-import styles from '../assets/NavBar.module.css'
 import useLanguage from '../hooks/useLanguage'
+import styles from '../assets/NavBar.module.css'
+import '/node_modules/flag-icons/css/flag-icons.min.css'
 
 function NavBar() {
   const { lang } = useParams()
@@ -34,7 +35,7 @@ function NavBar() {
         </div>
         <div>
           <button onClick={handleLanguageSwitch} className={styles.button}>
-            {language == 'en' ? '🇫🇷' : '🇬🇧'}
+            {language == 'en' ? <span className='fi fi-fr'></span> : <span className='fi fi-gb'></span>}
           </button>
         </div>
       </div>
