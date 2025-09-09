@@ -1,15 +1,14 @@
 :root {
-  --text-color: rgb(0, 7, 7);
-  --background-color: rgb(231, 241, 241);
-  --primary-color: rgb(34, 103, 100);
-  --primary-color-light: rgb(98, 151, 149);
-  --primary-color-dark: rgb(1, 55, 53);
-  --secondary-color: rgb(79, 44, 115);
-  --secondary-color-light: rgb(140, 113, 168);
-  --secondary-color-dark: rgb(33, 6, 61);
-  --tertiary-color: rgb(158, 167, 56);
-  --tertiary-color-light: rgb(237, 245, 158);
-  --tertiary-color-dark: rgb(82, 89, 2);
+  --text-color: rgb(0, 18, 17);
+  --background-color: rgb(247, 255, 255);
+  --primary-color: rgb(0, 91, 87);
+  --primary-color-highlight: rgb(0, 173, 163);
+  --primary-color-light: rgb(188, 255, 251);
+  --primary-color-dark: rgb(0, 45, 43);
+  --secondary-color: rgb(48, 25, 52);
+  --secondary-color-highlight: rgb(191, 162, 195);
+  --secondary-color-light: rgb(242, 236, 243);
+  --secondary-color-dark: rgb(24, 12, 26);
 }
   
 body {
@@ -28,16 +27,28 @@ body {
 h1 {
   font-size: 3rem;
   color: var(--primary-color);
-  text-shadow: 2px 2px var(--primary-color-light);
+  text-shadow: 2px 2px var(--primary-color-highlight);
 }
 
 h2 {
   font-size: 2.5rem;
   color: var(--secondary-color);
-  text-shadow: 2px 2px var(--secondary-color-light);
+  text-shadow: 2px 2px var(--secondary-color-highlight);
 }
 
 h3 {
   font-size: 1.5rem;
   color: var(--secondary-color);
+  margin: 1rem 0;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin: 0.5rem 0;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
 }

@@ -33,7 +33,7 @@
 
 .active {
   color: var(--primary-color-dark);
-  background-color: var(--primary-color-light);
+  background-color: var(--primary-color-highlight);
 }
 
 .linkTitle:hover {

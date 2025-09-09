@@ -38,7 +38,7 @@ function Projects() {
                   </div>
                 </div>
                 <p>{project.description}</p>
-                <p>{trans('solutionsIntro')}</p>
+                <h4>{trans('subTitle')}</h4>
                 <ul>
                   {project.solutions.map((solution, index) => (
                     <li key={index}>{solution}</li>
@@ -46,7 +46,7 @@ function Projects() {
                 </ul>
                 <div className={styles.skillsIcons}>
                   {project.skillsIcons.map((Icon, index) => (
-                    <Icon key={index} />
+                    <Icon key={index} width='30' height='30'/>
                   ))}
                 </div>
               </div>

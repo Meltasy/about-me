@@ -11,7 +11,6 @@
   align-items: center;
   background-color: var(--secondary-color);
   overflow: hidden;
-  box-shadow: 2px 2px 2px var(--secondary-color-light);
 }
 
 .imgWrapper {
@@ -51,7 +50,7 @@
 }
 
 .carouselBtn:active {
-  color: var(--secondary-color);
+  color: var(--secondary-color-highlight);
 }
 
 .prevBtn {
@@ -86,7 +85,7 @@
 }
 
 .indicator.active {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color-highlight);
   transform: scale(1.3);
 }
 

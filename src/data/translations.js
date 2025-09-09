@@ -32,8 +32,8 @@ const translations = {
         title: 'Blog App',
         previewUrl: 'https://blog-api-view.netlify.app/',
         githubUrl: 'https://github.com/Meltasy/blog-api',
-        description: 'Traditional blog platforms often tightly couple the content management system with the public-facing blog, creating security vulnerabilities and limiting flexibility. Content creators need separate, secure environments for writing and publishing content compared to reading and commenting on it, while maintaining a unified backend that serves both interfaces efficiently.',
-        solutions: ['Separating concerns: Distinct frontends for content creation vs. content', 'Enhanced security: Protected admin interface isolated from public blog', 'API-first approach: Flexible backend that can serve multiple clients', 'Modern authentication: JWT-based security with role-based access control', 'Scalable architecture: Modular design allowing independent scaling of components'],
+        description: 'A blog platform with a backend API supporting a public site for readers and a private dashboard for authors.',
+        solutions: ['🎎 Dual-purpose design: Clean Separation between content creation dashboard and public blog', '🔐 Smart access control: Role-based permissions keep admin functions secure from readers', '📝 Full content lifecycle: Draft, edit, publish and manage posts with complete workflow control', '💬 Engaging comment system: User accounts, threaded discussions, and self-managed comments', '🧩 Scalable architecture: Modular components that grow independently as needed', '📢 Live updates: Real-time content sync keeps everything fresh and responsive', '🔒 Enhanced security: Protected routes and authenticated sessions throughout'],
         skillsIcons: [JavaScript, React, ViteJS, NodeJS, Express, PostgreSQL, PrismaORM],
         imageKey: 'blogApi'
       },
@@ -42,13 +42,13 @@ const translations = {
         title: 'Wine Cellar App',
         previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
         githubUrl: 'https://github.com/Meltasy/inventory-application',
-        description: 'Personal wine collectors face significant challenges managing their collections without proper digital infrastructure. Traditional methods like spreadsheets or paper records become unwieldly as collections grow, making it difficult to track optimal drinking windows, manage inventory levels, and efficiently locate specific wines by their characteristics. Wine enthusiasts need comprehensive tracking systems that can handle complex wine data while providing intuitive search and filtering capabilities.',
-        solutions: ['Centralized inventory management: Complete digital catalog with detailed wine information and quantity tracking', 'Intelligent drinking recommendations: Automated identification of wines at peak maturity or requiring immediate consumption', 'Advanced search capabilities: Multi-criteria filtering by color, producer, region, appellation, alphabetical sorting', 'Normalized data architecture: Efficient PostgreSQL database design preventing redundancy while maintaining data integrity', 'Full lifecycle tracking: Complete CRUD operations with transaction-safe quantity updates and consumption history'],
+        description: 'An inventory management system to catalog, track and manage the wine in my cellar, and to remind me when each bottle is ready for enjoying.',
+        solutions: ['📊 Smart inventory management: Digital wine catalog with real-time quantity tracking', '💡 Intelligent drinking recommendations: Automated identification for wines at peak maturity', '🔎 Advanced search and filtering: Find wines instantly by name, color, producer, region or appellation', '🍾 Complete wine lifecycle: Track every bottle from cellar to consumption', '🍷 Visual Status Indicators: At-a-glance inventory health and drinking recommendations', '💫 Seamless user experience: Responsive design with dynamic forms and real-time updates', '🔒 Data integrity assurance: Validated inputs and redundancy-free database architecture'],
         skillsIcons: [JavaScript, NodeJS, Express, PostgreSQL, PrismaORM],
         imageKey: 'inventoryApp'
       }
     ],
-    solutionsIntro: 'This project solves these challenges by:',
+    subTitle: 'Features',
     hobbies: [
       {
         title: 'Trail running',
@@ -112,7 +112,7 @@ const translations = {
         imageKey: 'inventoryApp'
       }
     ],
-    solutionsIntro: '',
+    subTitle: '',
     hobbies: [
       {
         title: 'Course de trail',

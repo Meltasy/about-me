@@ -9,14 +9,14 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  box-shadow: 2px 2px 2px 2px var(--secondary-color-light);
+  box-shadow: 0 0 5px 5px var(--secondary-color-light);
   padding: 1rem;
 }
 
 .textWrapper {
   flex: 1;
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -31,7 +31,7 @@
   font-weight: 700;
   text-decoration: none;
   color: var(--secondary-color-dark);
-  background-color: var(--secondary-color-light);
+  background-color: var(--secondary-color-highlight);
   border: none;
   padding: 0.8rem 1.6rem;
   margin: 0 0.5rem;
@@ -46,7 +46,6 @@
 .skillsIcons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
+  gap: 0.5rem;
   padding-top: 1rem;
 }
