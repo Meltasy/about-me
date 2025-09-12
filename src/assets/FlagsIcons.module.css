@@ -15,12 +15,6 @@
 
 .iconBox.visible {
   opacity: 1;
-  animation: rotateflag 3s ease-in-out;
-}
-
-@keyframes rotateflag {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
 }
 
 .customFlag {

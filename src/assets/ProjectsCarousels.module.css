@@ -9,7 +9,6 @@
   position: relative;
   display: flex;
   align-items: center;
-  background-color: var(--secondary-color);
   overflow: hidden;
 }
 
@@ -50,7 +49,7 @@
 }
 
 .carouselBtn:active {
-  color: var(--secondary-color-highlight);
+  color: var(--secondary-color);
 }
 
 .prevBtn {
@@ -85,7 +84,7 @@
 }
 
 .indicator.active {
-  background-color: var(--secondary-color-highlight);
+  background-color: var(--secondary-color);
   transform: scale(1.3);
 }
 

@@ -9,7 +9,8 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  box-shadow: 0 0 5px 5px var(--secondary-color-light);
+  background-color: var(--background-div-color);
+  border-radius: 1rem;
   padding: 1rem;
 }
 
@@ -31,8 +32,9 @@
   font-weight: 700;
   text-decoration: none;
   color: var(--secondary-color-dark);
-  background-color: var(--secondary-color-highlight);
+  background-color: var(--secondary-color-light);
   border: none;
+  border-radius: 0.5rem;
   padding: 0.8rem 1.6rem;
   margin: 0 0.5rem;
   cursor: pointer;

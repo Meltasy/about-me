@@ -39,13 +39,23 @@ const translations = {
       },
       {
         id: 2,
-        title: 'Wine Cellar App',
+        title: 'Wine App',
         previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
         githubUrl: 'https://github.com/Meltasy/inventory-application',
         description: 'An inventory management system to catalog, track and manage the wine in my cellar, and to remind me when each bottle is ready for enjoying.',
         solutions: ['📊 Smart inventory management: Digital wine catalog with real-time quantity tracking', '💡 Intelligent drinking recommendations: Automated identification for wines at peak maturity', '🔎 Advanced search and filtering: Find wines instantly by name, color, producer, region or appellation', '🍾 Complete wine lifecycle: Track every bottle from cellar to consumption', '🍷 Visual Status Indicators: At-a-glance inventory health and drinking recommendations', '💫 Seamless user experience: Responsive design with dynamic forms and real-time updates', '🔒 Data integrity assurance: Validated inputs and redundancy-free database architecture'],
         skillsIcons: [JavaScript, NodeJS, Express, PostgreSQL, PrismaORM],
         imageKey: 'inventoryApp'
+      },
+      {
+        id: 3,
+        title: 'Shopping App',
+        previewUrl: 'https://meltasy-shopping-cart.netlify.app/',
+        githubUrl: 'https://github.com/Meltasy/shopping-cart',
+        description: 'A modern e-commerce app that allows shoppers to browse products with detailed information, manage quantities, and track their cart in real-time.',
+        solutions: ['💶 Dynamic product catalog: Browse through a collection of products with prices and details', '🧸 Product details: View comprehensive information about each product including images and descriptions', '🛒 Smart cart management: Add, remove and update items effortlessly, with real-time cart updates', '🧮 Intuitive quantity controls: Adjust quantities with increment/decrement buttons or manual entry', '🧭 Seamless navigation: Smooth transitions between home, shop and cart pages for a relaxing experience', '📱 Responsive design: Optimized layout that adapts easily to mobile and desktop screens', '🔬 Comprehensive testing: Rigorous test coverage ensuring reliable functionality'],
+        skillsIcons: [Html, Css, JavaScript, React, ViteJS],
+        imageKey: 'shoppingCart'
       }
     ],
     subTitle: 'Features',
@@ -94,7 +104,7 @@ const translations = {
     projects: [
       {
         id: 1,
-        title: 'App Blog',
+        title: 'Blog App',
         previewUrl: 'https://blog-api-view.netlify.app/',
         githubUrl: 'https://github.com/Meltasy/blog-api',
         description: 'Un blog avec deux interfaces utilisateur avec une API pour accéder au backend.',
@@ -104,12 +114,22 @@ const translations = {
       },
       {
         id: 2,
-        title: 'App Cave à Vin',
+        title: 'Wine App',
         previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
         githubUrl: 'https://github.com/Meltasy/inventory-application',        description: 'Une application de gestion des stocks pour ma cave à vin.',
         solutions: [],
         skillsIcons: [JavaScript, NodeJS, Express, PostgreSQL, PrismaORM],
         imageKey: 'inventoryApp'
+      },
+      {
+        id: 3,
+        title: 'Shopping App',
+        previewUrl: 'https://meltasy-shopping-cart.netlify.app/',
+        githubUrl: 'https://github.com/Meltasy/shopping-cart',
+        description: '',
+        solutions: [],
+        skillsIcons: [Html, Css, JavaScript, React, ViteJS],
+        imageKey: 'shoppingCart'
       }
     ],
     subTitle: '',
