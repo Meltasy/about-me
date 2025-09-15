@@ -62,9 +62,7 @@ const translations = {
     hobbies: [
       {
         title: 'Trail running',
-        description: 'Running in the countryside helps me to relax and clear my mind, especially when I\'m working through a tricky problem. It\'s also enabled me to explore some incredible places and provided me with life-changing experiences, like the time I met a brown bear in the middle of the woods. The photos are taken in my current playground in and around Xoldokogaina, in the Pays Basque.',
-        racesIntro: 'Some of the most memorable races I\'ve taken part in are:',
-        races: ['Les Templiers: La Monna Lisa 30km, Millau', 'La Chute de Diable 50km, Québec', 'Ultra-Trail Harricana 42km, Québec']
+        description: 'Running in the countryside helps me to relax and clear my mind, especially when I\'m working through a tricky problem. It\'s also enabled me to explore some incredible places and provided me with life-changing experiences, like the time I met a brown bear in the middle of the woods. The photos are taken in my current playground in and around Xoldokogaina, in the Pays Basque.'
       },
       {
         title: 'Exploring the world',
@@ -136,8 +134,7 @@ const translations = {
     hobbies: [
       {
         title: 'Course de trail',
-        description: '',
-        races: []
+        description: ''
       },
       {
         title: 'Explorer le monde',

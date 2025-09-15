@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import styles from '../assets/SkillsIcons.module.css'
+import styles from '../assets/components/SkillsIcons.module.css'
 import { JavaScript, Html, Css, Express, NodeJS, PostgreSQL, PrismaORM, React, ViteJS, Webpack } from './icons/index'
 
 function SkillsIcons() {

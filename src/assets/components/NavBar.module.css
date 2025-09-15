@@ -1,20 +1,24 @@
-:global(.wrapper) {
+.wrapper {
+  grid-area: header;
   background-color: var(--background-color);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 80%;
+  height: 2rem;
+  padding: 1.5rem 0;
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
-  height: 50px;
-  gap: 1rem;
-}
-
-:global(.miniWrapper) {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  z-index: 100;
+}
+
+.navNameFlag,
+.navMenu {
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
 }
@@ -27,8 +31,9 @@
   color: var(--secondary-color);
   background-color: transparent;
   border: none;
-  padding: 0.8rem 1.4rem;
+  padding: 1rem 0.5rem;
   cursor: pointer;
+  transition: color 0.2s ease;
 }
 
 .active {
@@ -48,8 +53,37 @@
   border: none;
   padding: 0.8rem 1.4rem;
   cursor: pointer;
+  transition: font-size 0.2s ease;
 }
 
 .button:hover {
   font-size: 1.8rem;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 95%;
+    min-height: 6rem;
+    padding: 0;
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .navMenu {
+    gap: 0.5rem;
+  }
+
+  .linkTitle {
+    font-size: 1.2rem;
+    padding: 0.7rem 0.3rem;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .button:hover {
+    font-size: 1.5rem;
+  }
 }

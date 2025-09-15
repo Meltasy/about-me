@@ -1,0 +1,37 @@
+.wrapper {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.iconBox {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+.iconBox.visible {
+  opacity: 1;
+}
+
+.customFlag {
+  width: 4rem;
+  height: 3rem;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    font-size: 2.4rem;
+    gap: 0.5rem;
+  }
+
+  .customFlag {
+    width: 3.2rem;
+    height: 2.4rem;
+  }
+}

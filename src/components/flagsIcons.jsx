@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import styles from '../assets/FlagsIcons.module.css'
+import styles from '../assets/components/FlagsIcons.module.css'
 import '/node_modules/flag-icons/css/flag-icons.min.css'
 import flagQuebec from '../assets/images/flagQuebec.svg'
 

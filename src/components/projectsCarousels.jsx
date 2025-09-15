@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import styles from '../assets/ProjectsCarousels.module.css'
+import styles from '../assets/components/ProjectsCarousels.module.css'
 import screenshots from '../data/screenshots'
 
 function ProjectsCarousels({ projectImage, projectTitle }) {

@@ -1,0 +1,43 @@
+.hobbiesWrapper {
+  display: grid;
+  gap: 2rem;
+}
+
+.trailWrapper {
+  background-color: var(--background-div-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 2rem;
+}
+
+.exploreWrapper {
+  background-color: var(--background-div-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.growWrapper {
+  background-color: var(--background-div-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .trailWrapper {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* @media (max-width: 480px) {
+  
+} */

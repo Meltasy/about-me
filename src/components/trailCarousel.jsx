@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import styles from '../assets/TrailCarousel.module.css'
+import styles from '../assets/components/TrailCarousel.module.css'
 import { myPlayground1, myPlayground2, myPlayground3, myPlayground4 } from '../assets/images/my-playground'
 
 function TrailCarousel() {

@@ -2,7 +2,7 @@ import { useEffect, useState, useMemo } from 'react'
 import { useParams } from 'react-router-dom'
 import useLanguage from '../hooks/useLanguage'
 import SkillsIcons from '../components/skillsIcons'
-import styles from '../assets/Welcome.module.css'
+import styles from '../assets/pages/Welcome.module.css'
 import Melissa from '../assets/images/MelissaPortrait.jpg'
 
 function Welcome() {
@@ -43,10 +43,12 @@ function Welcome() {
   }, [subIndex, index, deleting, titles])
   
   return (
-    <>
-      <header className={styles.wrapper}>
+    <div className='contentWrapper'>
+      <header className={styles.header}>
+        <h1>{trans('header.name')}</h1>
+      </header>
+      <main className={styles.mainWrapper}>
         <div className={styles.headingBox}>
-          <h1>{trans('header.name')}</h1>
           <h2>
             {lang === 'fr' ? trans('header.title') + ' ' : ''}
             {currentTitle}
@@ -61,10 +63,8 @@ function Welcome() {
         <div className={styles.imageBox}>
           <img src={Melissa} alt='placeholder' className={styles.image}/>
         </div>
-      </header>
-      <main>
       </main>
-    </>
+    </div>
   )
 }
 

@@ -1,0 +1,105 @@
+.projectsWrapper {
+  display: grid;
+  gap: 2rem;
+}
+
+.projectWrapper {
+  background-color: var(--background-div-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 2rem;
+}
+
+.textWrapper {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.headWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 1rem;
+}
+
+.buttonsWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 0.5rem;
+  min-width: fit-content;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--secondary-color-dark);
+  background-color: var(--secondary-color-light);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.button:hover {
+  color: var(--secondary-color-light);
+  background-color: var(--secondary-color-dark);
+}
+
+.skillsIcons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .projectWrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectsWrapper {
+    gap: 1.5rem;
+  }
+
+  .projectWrapper {
+    padding: 1.5rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .headWrapper {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projectsWrapper {
+    gap: 1rem;
+  }
+
+  .projectWrapper {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .headWrapper {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .button {
+    padding: 0.6rem 1.2rem;
+  }
+}

@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom'
 import useLanguage from '../hooks/useLanguage'
-import styles from '../assets/Projects.module.css'
+import styles from '../assets/pages/Projects.module.css'
 import ProjectsCarousels from '../components/projectsCarousels'
 
 function Projects() {
   const { trans, translations } = useLanguage()
 
   return (
-    <>
+    <div className='contentWrapper'>
       <header>
         <h1>{trans('pages.projects')}</h1>
       </header>
@@ -18,7 +18,7 @@ function Projects() {
               <div className={styles.textWrapper}>
                 <div className={styles.headWrapper}>
                   <h3>{project.title}</h3>
-                  <div>
+                  <div className={styles.buttonsWrapper}>
                     <Link
                       to={project.previewUrl}
                       target='_blank'
@@ -50,12 +50,14 @@ function Projects() {
                   ))}
                 </div>
               </div>
-              <ProjectsCarousels projectImage={project.imageKey} projectTitle={project.title}/>
+              <div>
+                  <ProjectsCarousels projectImage={project.imageKey} projectTitle={project.title}/>
+              </div>
             </li>
           ))}
         </ul>
       </main>
-    </>
+    </div>
   )
 }
 

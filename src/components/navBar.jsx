@@ -1,6 +1,6 @@
 import { NavLink, useNavigate, useParams, useLocation } from 'react-router-dom'
 import useLanguage from '../hooks/useLanguage'
-import styles from '../assets/NavBar.module.css'
+import styles from '../assets/components/NavBar.module.css'
 import '/node_modules/flag-icons/css/flag-icons.min.css'
 
 function NavBar() {
@@ -20,56 +20,46 @@ function NavBar() {
   }
 
   return (
-    <nav className='wrapper'>
-      <div className='miniWrapper'>
-        <div>
-          <NavLink
-            to={`/${lang}`}
-            className={() => {
-              const active = isAboutMeActive()
-              return active ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
-            }}
-          >
-            {trans('header.name')}
-          </NavLink>
-        </div>
-        <div>
-          <button onClick={handleLanguageSwitch} className={styles.button}>
-            {language == 'en' ? <span className='fi fi-fr'></span> : <span className='fi fi-gb'></span>}
-          </button>
-        </div>
+    <nav className={styles.wrapper}>
+      <div className={styles.navNameFlag}>
+        <NavLink
+          to={`/${lang}`}
+          className={() => {
+            const active = isAboutMeActive()
+            return active ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
+          }}
+        >
+          {trans('header.name')}
+        </NavLink>
+        <button onClick={handleLanguageSwitch} className={styles.button}>
+          {language == 'en' ? <span className='fi fi-fr'></span> : <span className='fi fi-gb'></span>}
+        </button>
       </div>
-      <div className='miniWrapper'>
-        <div>
-          <NavLink
-            to={`/${lang}/aboutMe`}
-            className={({ isActive }) =>
-              isActive ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
-            }
-          >
-            {trans('pages.aboutMe')}
-          </NavLink>
-        </div>
-        <div>
-          <NavLink
-            to={`/${lang}/projects`}
-            className={({ isActive }) =>
-              isActive ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
-            }
-          >
-            {trans('pages.projects')}
-          </NavLink>
-        </div>
-        <div>
-          <NavLink
-            to={`/${lang}/freetime`}
-            className={({ isActive }) =>
-              isActive ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
-            }
-          >
-            {trans('pages.freeTime')}
-          </NavLink>
-        </div>
+      <div className={styles.navMenu}>
+        <NavLink
+          to={`/${lang}/aboutMe`}
+          className={({ isActive }) =>
+            isActive ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
+          }
+        >
+          {trans('pages.aboutMe')}
+        </NavLink>
+        <NavLink
+          to={`/${lang}/projects`}
+          className={({ isActive }) =>
+            isActive ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
+          }
+        >
+          {trans('pages.projects')}
+        </NavLink>
+        <NavLink
+          to={`/${lang}/freetime`}
+          className={({ isActive }) =>
+            isActive ? `${styles.linkTitle} ${styles.active}` : styles.linkTitle
+          }
+        >
+          {trans('pages.freeTime')}
+        </NavLink>
       </div>
     </nav>
   )
