@@ -31,6 +31,13 @@
   gap: 1rem;
 }
 
+.emojis {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 768px) {
   .trailWrapper {
     grid-template-columns: 1fr;
@@ -38,6 +45,8 @@
   }
 }
 
-/* @media (max-width: 480px) {
-  
-} */
+@media (max-width: 480px) {
+  .emojis {
+    font-size: 2rem;
+  }
+}

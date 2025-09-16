@@ -13,7 +13,7 @@ function Projects() {
       </header>
       <main>
         <ul className={styles.projectsWrapper}>
-          {translations.projects.map((project) => (
+          {translations.projects.apps.map((project) => (
             <li key={project.id} className={styles.projectWrapper}>
               <div className={styles.textWrapper}>
                 <div className={styles.headWrapper}>
@@ -25,7 +25,7 @@ function Projects() {
                       rel='noopener noreferrer'
                       className={styles.button}
                     >
-                      Preview
+                      {translations.projects.buttons[0]}
                     </Link>
                     <Link
                       to={project.githubUrl}
@@ -33,12 +33,12 @@ function Projects() {
                       rel='noopener noreferrer'
                       className={styles.button}
                     >
-                      Code
+                      {translations.projects.buttons[1]}
                     </Link>
                   </div>
                 </div>
                 <p>{project.description}</p>
-                <h4>{trans('subTitle')}</h4>
+                <h4>{trans('projects.subTitle')}</h4>
                 <ul className={styles.list}>
                   {project.solutions.map((solution, index) => (
                     <li key={index}>{solution}</li>

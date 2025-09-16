@@ -1,8 +1,11 @@
+import useLanguage from '../hooks/useLanguage'
 import styles from '../assets/components/Footer.module.css'
 import GitHub from './icons/gitHub'
 import LinkedIn from './icons/linkedIn'
 
 const Footer = () => {
+const { translations } = useLanguage()
+
   return (
     <footer className={styles.wrapper}>
       <div className={styles.iconsWrapper}>
@@ -10,8 +13,9 @@ const Footer = () => {
         <GitHub />      
       </div>
       <div className={styles.textWrapper}>
-        <p>Copyright &copy; 2025 Melissa Vialaneix.</p>
-        <p>All rights reserved.</p>
+        {translations.footer.copyright.map((text, index) => (
+          <p key={index}>{text}</p>
+        ))}
       </div>
     </footer>
   )

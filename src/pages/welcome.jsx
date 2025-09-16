@@ -57,11 +57,14 @@ function Welcome() {
           </h2>
           <SkillsIcons />
         </div>
-        <div className={styles.summaryBox}>
-          <p>{trans('summary')}</p>
-        </div>
         <div className={styles.imageBox}>
           <img src={Melissa} alt='placeholder' className={styles.image}/>
+        </div>
+        <div className={styles.summaryBox}>
+          <p>{trans('welcome.summary')}</p>
+        </div>
+        <div className={styles.straplineBox}>
+          <p>{trans('welcome.strapline')}</p>
         </div>
       </main>
     </div>

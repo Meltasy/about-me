@@ -26,6 +26,8 @@ function FreeTime() {
         </section>
         <section className={styles.growWrapper}>
           <h3>{translations.hobbies[2].title}</h3>
+          <p className={styles.emojis}>🍅 🍆 🌶️ 🫑 🥔 🥬 🥒 🍋‍🟩 🍎 🫐 🍓</p>
+          <p>{translations.hobbies[2].description}</p>
         </section>
       </main>
     </div>
