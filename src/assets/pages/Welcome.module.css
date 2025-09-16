@@ -23,8 +23,7 @@
 .summaryBox {
   grid-column: 1;
   grid-row: 2;
-  font-size: 1.2rem;
-  line-height: 1.5;
+  font-size: 1.4rem;
 }
 
 .imageBox {
@@ -34,11 +33,13 @@
 }
 
 .image {
-  max-width: 400px;
-  max-height: auto;
+  width: 500px;
+  height: auto;
+  aspect-ratio: contain;
+  transform: scaleX(-1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .mainWrapper {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;
@@ -62,10 +63,16 @@
   }
 
   .image {
-    max-width: 300px;
+    width: 350px;
   }
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
+  .summaryBox {
+    font-size: 1.2rem;
+  }
 
-} */
+  .image {
+    width: 250px;
+  }
+}

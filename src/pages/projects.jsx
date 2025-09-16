@@ -39,7 +39,7 @@ function Projects() {
                 </div>
                 <p>{project.description}</p>
                 <h4>{trans('subTitle')}</h4>
-                <ul>
+                <ul className={styles.list}>
                   {project.solutions.map((solution, index) => (
                     <li key={index}>{solution}</li>
                   ))}
@@ -50,7 +50,7 @@ function Projects() {
                   ))}
                 </div>
               </div>
-              <div>
+              <div className={styles.carouselWrapper}>
                   <ProjectsCarousels projectImage={project.imageKey} projectTitle={project.title}/>
               </div>
             </li>

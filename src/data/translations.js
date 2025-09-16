@@ -25,6 +25,10 @@ const translations = {
       title2: 'Back End',
       title3: 'Full Stack'
     },
+    footer: {
+      linkedIn: 'Visit my LinkedIn profile',
+      gitHub: 'Visit my GitHub profile'
+    },
     summary: 'Hello, I\'m Melissa. I\'ve recently changed direction in my career and have trained as a full stack web developer after working as a Learning Designer, Product Manager, Writer and Editor in educational publishing for over a decade. I\'m looking for a position within a company where I can work within a team of web developers of differing experiences, bringing with me a range of skills and experience from my previous roles. As a junior developer, I\'d love to work with more experienced developers, so that I can learn from them and grow within this new role. My love of learning and curiosity in the ever-evolving world of web development continue to drive me, with the same question always on the tip of my tongue ... What\'s the next problem for me to solve?',
     projects: [
       {
@@ -42,7 +46,7 @@ const translations = {
         title: 'Wine App',
         previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
         githubUrl: 'https://github.com/Meltasy/inventory-application',
-        description: 'An inventory management system to catalog, track and manage the wine in my cellar, and to remind me when each bottle is ready for enjoying.',
+        description: 'An inventory management system to catalog, track and manage the wine in a cellar, with a dynamic dashboard.',
         solutions: ['📊 Smart inventory management: Digital wine catalog with real-time quantity tracking', '💡 Intelligent drinking recommendations: Automated identification for wines at peak maturity', '🔎 Advanced search and filtering: Find wines instantly by name, color, producer, region or appellation', '🍾 Complete wine lifecycle: Track every bottle from cellar to consumption', '🍷 Visual Status Indicators: At-a-glance inventory health and drinking recommendations', '💫 Seamless user experience: Responsive design with dynamic forms and real-time updates', '🔒 Data integrity assurance: Validated inputs and redundancy-free database architecture'],
         skillsIcons: [JavaScript, NodeJS, Express, PostgreSQL, PrismaORM],
         imageKey: 'inventoryApp'
@@ -98,39 +102,44 @@ const translations = {
       title2: 'Back End',
       title3: 'Full Stack'
     },
+    footer: {
+      linkedIn: 'Visitez mon profil LinkedIn',
+      gitHub: 'Visitez mon profil GitHub'
+    },
     summary: '',
     projects: [
       {
         id: 1,
-        title: 'Blog App',
+        title: 'App de blog',
         previewUrl: 'https://blog-api-view.netlify.app/',
         githubUrl: 'https://github.com/Meltasy/blog-api',
-        description: 'Un blog avec deux interfaces utilisateur avec une API pour accéder au backend.',
-        solutions: [],
+        description: 'Une plateforme de blog avec une API backend prenant en charge un site public pour les lecteurs et un tableau de bord privé pour les auteurs.',
+        solutions: ['🎎 Conception à double usage : Séparation claire entre le tableau de bord de création de contenu et le blog public', '🔐 Contrôle d\'accès intelligent : Permissions basées sur les rôles pour sécuriser les fonctions d\'administration face aux lecteurs', '📝 Cycle de vie complet du contenu : Rédigez, modifiez, publiez et gérez des articles avec contrôle intégral du workflow', '💬 Système de commentaires engageant : Comptes utilisateurs, fils de discussions et commentaires auto-gérés', '🧩 Architecture évolutive : Composants modulaires qui évoluent indépendamment selon les besoins', '📢 Mises à jour en temps réel : Synchronisation de contenu en direct pour maintenir la fraîcheur et la réactivité', '🔒 Sécurité renforcée : Routes protégées et sessions authentifiées tout au long du processus'],
         skillsIcons: [JavaScript, React, ViteJS, NodeJS, Express, PostgreSQL, PrismaORM],
         imageKey: 'blogApi'
       },
       {
         id: 2,
-        title: 'Wine App',
+        title: 'App de vin',
         previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
-        githubUrl: 'https://github.com/Meltasy/inventory-application',        description: 'Une application de gestion des stocks pour ma cave à vin.',
-        solutions: [],
+        githubUrl: 'https://github.com/Meltasy/inventory-application',
+        description: 'Un système de gestion d\'inventaire pour cataloguer, suivre et gérer les vins d\'une cave, avec un tableau de bord dynamique.',
+        solutions: ['📊 Gestion intelligente d\'inventaire : Catalogue numérique de vins avec suivi des quantités en temps réel', '💡 Recommandations de dégustation intelligentes : Identification automatisée des vins à maturité optimale', '🔎 Recherche et filtrage avancés : Trouvez instantanément les vins par nom, couleur, producteur, région ou appellation', '🍾 Cycle de vie complet du vin : Suivi de chaque bouteille de la cave à la consommation', '🍷 Indicateurs d\'état visuels : Visualiser d\'un coup d\'œil l\'état de l\'inventaire et recommandations de dégustation', '💫 Expérience utilisateur fluide : Design responsive avec formulaires dynamiques et mises à jour en temps réel', '🔒 Assurance d\'intégrité des données : Validation des entrées et architecture de base de données sans redondance'],
         skillsIcons: [JavaScript, NodeJS, Express, PostgreSQL, PrismaORM],
         imageKey: 'inventoryApp'
       },
       {
         id: 3,
-        title: 'Shopping App',
+        title: 'App d\'achat',
         previewUrl: 'https://meltasy-shopping-cart.netlify.app/',
         githubUrl: 'https://github.com/Meltasy/shopping-cart',
-        description: '',
-        solutions: [],
+        description: 'Une application e-commerce moderne qui permet aux acheteurs de parcourir les produits avec des informations détaillées, de gérer les quantités et de suivre leur panier en temps réel.',
+        solutions: ['💶 Catalogue produits dynamique : Parcourez une collection de produits avec prix et détails', '🧸 Détails produits : Consultez les informations complètes sur chaque produit incluant images et descriptions', '🛒 Gestion intelligente du panier : Ajoutez, supprimez et mettez à jour les articles sans effort, avec mises à jour du panier en temps réel', '🧮 Contrôles de quantité intuitifs : Ajustez les quantités avec boutons d\'incrémentation/décrémentation ou saisie manuelle', '🧭 Navigation fluide : Transitions harmonieuses entre les pages d\'accueil, boutique et panier pour une expérience relaxante', '📱 Design responsive : Interface optimisée pour une adaptation fluide aux écrans mobiles et desktop', '🔬 Tests exhaustifs : Couverture de tests rigoureuse garantissant une fonctionnalité fiable'],
         skillsIcons: [Html, Css, JavaScript, React, ViteJS],
         imageKey: 'shoppingCart'
       }
     ],
-    subTitle: '',
+    subTitle: 'Caractéristiques',
     hobbies: [
       {
         title: 'Course de trail',

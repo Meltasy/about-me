@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import useLanguage from '../hooks/useLanguage'
 import SkillsIcons from '../components/skillsIcons'
 import styles from '../assets/pages/Welcome.module.css'
-import Melissa from '../assets/images/MelissaPortrait.jpg'
+import Melissa from '../assets/images/MelissaProfile.jpg'
 
 function Welcome() {
   const { lang } = useParams()

@@ -55,11 +55,19 @@
   background-color: var(--secondary-color-dark);
 }
 
+.list > li {
+  line-height: 1.5;
+}
+
 .skillsIcons {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   padding-top: 0.5rem;
+}
+
+.carouselWrapper {
+  align-self: center;
 }
 
 @media (max-width: 1024px) {
