@@ -124,7 +124,7 @@ const translations = {
             `🧸 Product details: View comprehensive information about each product including images and 
             descriptions`,
             '🛒 Smart cart management: Add, remove and update items effortlessly, with real-time cart updates',
-            '🧮 Intuitive quantity controls: Adjust quantities with increment/decrement buttons or manual entry',
+            '🧮 Intuitive quantity controls: Adjust quantities with increment / decrement buttons or manual entry',
             `🧭 Seamless navigation: Smooth transitions between home, shop and cart pages for a relaxing 
             experience`,
             '📱 Responsive design: Optimized layout that adapts easily to mobile and desktop screens',
@@ -142,7 +142,7 @@ const translations = {
         trying to find the solution to a tricky problem. It's also enabled me to explore some incredible 
         places and provided me with life-changing experiences, like the time I met a brown bear in the middle 
         of the woods in Quebec, or the time I crested a hill in time to watch the sunset over a glacier in 
-        Iceland. The photos are taken in my current playground in and around Xoldokogaina, in the Pays Basque.`
+        Iceland. The photos are taken in my current playground in and around Mont Xoldo, in the Pays Basque.`
       },
       {
         title: 'Exploring the world',
@@ -208,8 +208,8 @@ const translations = {
     aboutMe: {
       summary: [
         `J'ai récemment changé d'orientation professionnelle et me suis formée en tant que développeuse web full stack 
-        après avoir travaillé comme conceptrice pédagogique, chef de produit, écrivain et responsable d'édition dans 
-        l'édition éducative pendant plus d'une décennie. Je recherche un poste au sein d'une entreprise où je pourrai 
+        après avoir travaillé dans l'édition éducative pendant plus d'une décennie en tant que conceptrice pédagogique, 
+        chef de produit, écrivain et responsable d'édition. Je recherche un poste au sein d'une entreprise où je pourrais 
         travailler dans une équipe de développeurs aux expériences variées, en apportant avec moi un éventail de 
         compétences et d'expérience issues de mes fonctions précédentes.`,
         `En tant que développeuse junior, j'aimerais travailler avec des développeurs auprès desquels je pourrai 
@@ -226,7 +226,7 @@ const translations = {
     },
     projects: {
       subTitle: 'Caractéristiques',
-      buttons: ['Aperçu', 'Source Code'],
+      buttons: ['Aperçu', 'Code Source'],
       apps: [
         {
           id: 1,
@@ -236,7 +236,7 @@ const translations = {
           description: `Une plateforme de blog avec une API backend prenant en charge un site public pour 
           les lecteurs et un tableau de bord privé pour les auteurs.`,
           solutions: [
-            `'🎎 Conception à double usage : Séparation claire entre le tableau de bord de création de contenu 
+            `🎎 Conception à double usage : Séparation claire entre le tableau de bord de création de contenu 
             et le blog public`,
             `🔐 Contrôle d'accès intelligent : Permissions basées sur les rôles pour sécuriser les fonctions 
             d'administration face aux lecteurs`,
@@ -290,8 +290,8 @@ const translations = {
             descriptions`,
             `🛒 Gestion intelligente du panier : Ajoutez, supprimez et mettez à jour les articles sans effort, 
             avec mises à jour du panier en temps réel`,
-            `🧮 Contrôles de quantité intuitifs : Ajustez les quantités avec boutons d'incrémentation/décrémentation 
-            ou saisie manuelle`,
+            `🧮 Contrôles de quantité intuitifs : Ajustez les quantités avec boutons d'incrémentation / 
+            décrémentation ou saisie manuelle`,
             `🧭 Navigation fluide : Transitions harmonieuses entre les pages d'accueil, boutique et panier pour une 
             expérience relaxante`,
             '📱 Design responsive : Interface optimisée pour une adaptation fluide aux écrans mobiles et desktop',
@@ -309,15 +309,15 @@ const translations = {
         je cherche à résoudre un problème complexe. Cela m'a également permis d'explorer des lieux incroyables et de 
         vivre des expériences marquantes : comme le jour où j'ai croisé un ours brun en pleine forêt au Québec, ou 
         celui où j'ai atteint le sommet d'une colline juste à temps pour admirer le coucher de soleil sur un glacier en 
-        Islande. Les photos ont été prises dans mon terrain de jeu actuel, autour de Xoldokogaina, au Pays basque.`
+        Islande. Les photos ont été prises dans mon terrain de jeu actuel, autour du Mont Xoldo, au Pays basque.`
       },
       {
         title: 'Explorer le monde',
         description: `M'immerger dans différentes cultures, apprendre diverses langues, rencontrer des personnes 
         d'horizons divers et passer du temps dans de nombreux endroits à travers le monde m'a ouvert les yeux sur le 
         monde réel dans lequel nous vivons. Je suis née dans le comté de Durham et j'ai vécu dans plusieurs endroits au 
-        Royaume-Uni, notamment à Édimbourg, Londres, Anglesey, Cornouailles et Cambridge. Dès que j'ai terminé mes études, 
-        j'ai déménagé à Taïwan, puis en Chine où j'ai vécu à Shanghai et Chengdu. Depuis, j'ai vécu à Montréal et 
+        Royaume-Uni, notamment à Édimbourg, Londres, Anglesey, en Cornouailles et à Cambridge. Dès que j'ai terminé mes 
+        études, j'ai déménagé à Taïwan, puis en Chine où j'ai vécu à Shanghai et Chengdu. Depuis, j'ai vécu à Montréal et 
         maintenant au Pays basque. J'ai hâte de déménager à nouveau bientôt ... quelque part en France, mais cela dépendra 
         de la meilleure opportunité professionnelle !`
       },
