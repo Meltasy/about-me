@@ -124,8 +124,8 @@ const translations = {
             `🧸 Product details: View comprehensive information about each product including images and 
             descriptions`,
             '🛒 Smart cart management: Add, remove and update items effortlessly, with real-time cart updates',
-            `🧮 Intuitive quantity controls: Adjust quantities with increment/decrement buttons or manual entry',
-            '🧭 Seamless navigation: Smooth transitions between home, shop and cart pages for a relaxing 
+            '🧮 Intuitive quantity controls: Adjust quantities with increment/decrement buttons or manual entry',
+            `🧭 Seamless navigation: Smooth transitions between home, shop and cart pages for a relaxing 
             experience`,
             '📱 Responsive design: Optimized layout that adapts easily to mobile and desktop screens',
             '🔬 Comprehensive testing: Rigorous test coverage ensuring reliable functionality'
