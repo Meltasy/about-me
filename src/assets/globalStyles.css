@@ -2,12 +2,12 @@
   --text-color: rgb(1, 1, 1);
   --background-color: 	rgb(245, 251, 249);
   --background-div-color: rgb(230, 244, 241);
+  --primary-color:	rgb(255, 134, 74);
+  --primary-color-light: rgb(255, 207, 183);
+  --primary-color-dark: rgb(132, 44, 0);
   --secondary-color: 	rgb(71, 129, 127);
   --secondary-color-light: rgb(175, 211, 210);
   --secondary-color-dark: rgb(28, 52, 51);
-  --primary-color: 	rgb(255, 134, 74);
-  --primary-color-light: rgb(255, 207, 183);
-  --primary-color-dark: rgb(132, 44, 0);
 }
 
 * {
@@ -42,7 +42,7 @@ body {
 
 .mainApp {
   grid-area: main;
-  padding-top: 2rem;
+  padding-top: 3.5rem;
   margin: 0 auto;
   max-width: 80%;
   width: 100%;

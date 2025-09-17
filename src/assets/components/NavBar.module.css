@@ -2,7 +2,7 @@
   grid-area: header;
   background-color: var(--background-color);
   width: 80%;
-  height: 2rem;
+  height: 3rem;
   padding: 1.5rem 0;
   position: fixed;
   top: 0;
@@ -37,11 +37,11 @@
 }
 
 .active {
-  color: var(--secondary-color-light);
+  color: var(--secondary-color-dark);
 }
 
 .linkTitle:hover {
-  color: var(--secondary-color-dark);
+  color: var(--secondary-color-light);
 }
 
 .button {

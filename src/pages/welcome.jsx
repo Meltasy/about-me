@@ -64,7 +64,9 @@ function Welcome() {
           <p>{trans('welcome.summary')}</p>
         </div>
         <div className={styles.straplineBox}>
-          <p>{trans('welcome.strapline')}</p>
+          <a href='mailto:melissa.bryant.elt@gmail.com?subject=Contact%20from%20website' title={trans('welcome.emailMe')} className={styles.straplineLink}>
+            <p>{trans('welcome.strapline')}<em>{trans('welcome.question')}</em></p>
+          </a>
         </div>
       </main>
     </div>
