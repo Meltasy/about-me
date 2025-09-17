@@ -5,7 +5,7 @@ const CVDownload = ({ width = 50, height = 50 }) => {
 
   return (
     <a
-      href="{trans('CVName')}.pdf"
+      href={trans('footer.CVName')}
       download="MelissaVialaneixCV.pdf"
       aria-label={trans('footer.CV')}
     >
