@@ -12,6 +12,14 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
 }
   
 body {
@@ -29,6 +37,7 @@ body {
     "main"
     "footer";
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .mainApp {
