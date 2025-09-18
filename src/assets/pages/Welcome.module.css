@@ -23,14 +23,20 @@
 .imageBox {
   grid-column: 2;
   grid-row: 1 / 4;
-  justify-self: end;
+  justify-self: center;
+  align-self: center;
 }
 
-.image {
-  width: 500px;
+.imageBig {
+  display: block;
+  width: 400px;
   height: auto;
-  aspect-ratio: contain;
-  transform: scaleX(-1);
+}
+
+.imageSml {
+  display: none;
+  width: 300px;
+  height: auto;
 }
 
 .summaryBox {
@@ -55,8 +61,8 @@
   transition: color 0.2s ease;
 }
 .straplineBox:hover {
-  color: var(--background-div-color);
-  background-color: var(--secondary-color);
+  color: var(--secondary-color-dark);
+  background-color: var(--secondary-color-light);
 }
 
 .straplineLink {
@@ -79,8 +85,12 @@
     justify-self: center;
   }
 
-  .image {
-    width: 350px;
+  .imageBig {
+    display: none;
+  }
+
+  .imageSml {
+    display: block;
   }
 
   .summaryBox {
@@ -94,8 +104,8 @@
 }
 
 @media (max-width: 480px) {
-  .image {
-    width: 250px;
+  .imageSml {
+    width: 200px;
   }
   
   .summaryBox {

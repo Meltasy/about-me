@@ -3,7 +3,8 @@ import { useParams } from 'react-router-dom'
 import useLanguage from '../hooks/useLanguage'
 import SkillsIcons from '../components/skillsIcons'
 import styles from '../assets/pages/Welcome.module.css'
-import Melissa from '../assets/images/MelissaProfile.jpg'
+import myHeadshotBig from '../assets/images/my-profile/my-headshot-big.jpg'
+import myHeadshotSml from '../assets/images/my-profile/my-headshot-sml.jpg'
 
 function Welcome() {
   const { lang } = useParams()
@@ -58,7 +59,8 @@ function Welcome() {
           <SkillsIcons />
         </div>
         <div className={styles.imageBox}>
-          <img src={Melissa} alt='placeholder' className={styles.image}/>
+          <img src={myHeadshotBig} alt='Headshot of Melissa' className={styles.imageBig}/>
+          <img src={myHeadshotSml} alt='Headshot of Melissa' className={styles.imageSml}/>
         </div>
         <div className={styles.summaryBox}>
           <p>{trans('welcome.summary')}</p>

@@ -7,13 +7,13 @@
 [![Repo Size](https://img.shields.io/github/repo-size/Meltasy/about-me)](https://github.com/Meltasy/about-me)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://melissa-vialaneix.netlify.app/)
 
-A personal website to present myself and showcase some of the best projects I've created so far.
+A personal website to present myself and showcase the most interesting projects I've created so far.
 
 Check out [My Website](https://melissa-vialaneix.netlify.app/)!
 
 ## Features
 
-* 🔎 **Comprehensive information:** Detailed information about myself, what I can offer, my projects and my hobbies
+* 🔎 **Comprehensive information:** Lots of information about who I am and what I can offer a potential employer
 * 🔗 **Connect with ease:** Clearly signposted links to reach out to me, explore my work further or download my CV
 * 🧭 **Seamless navigation:** Smooth transitions between sections with intuitive navigation to discover my story
 * 📱 **Responsive design:** Optimized layout that adapts easily to mobile, tablet and desktop screens
@@ -23,7 +23,6 @@ Check out [My Website](https://melissa-vialaneix.netlify.app/)!
 * Add more projects
 * Add a visitor counter
 * Add a personal blog
-
 
 ## Tech Stack
 
