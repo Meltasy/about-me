@@ -2,7 +2,7 @@ import useLanguage from '../hooks/useLanguage'
 import styles from '../assets/components/Footer.module.css'
 import GitHub from './icons/gitHub'
 import LinkedIn from './icons/linkedIn'
-import CVDownload from './icons/CVDownload'
+import CVDownload from './icons/cvDownload'
 
 const Footer = () => {
 const { translations } = useLanguage()

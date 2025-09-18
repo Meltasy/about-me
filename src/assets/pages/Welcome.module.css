@@ -51,6 +51,12 @@
   max-width: 900px;
   padding: 1rem 2rem;
   border-radius: 1rem;
+  transition: background-color 0.2s ease;
+  transition: color 0.2s ease;
+}
+.straplineBox:hover {
+  color: var(--background-div-color);
+  background-color: var(--secondary-color);
 }
 
 .straplineLink {

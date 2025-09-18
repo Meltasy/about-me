@@ -18,7 +18,6 @@ const GitHub = ({ width = 50, height = 50 }) => {
         role="img"
         aria-labelledby="gitHubTitle"
         focusable="true"
-        style={{ cursor: 'pointer' }}
       >
         <title id="gitHubTitle">GitHub</title>
         <g fill="#181616">

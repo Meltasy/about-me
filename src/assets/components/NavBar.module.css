@@ -1,8 +1,8 @@
 .wrapper {
   grid-area: header;
   background-color: var(--background-color);
-  width: 80%;
-  max-width: 2000px;
+  width: 90%;
+  max-width: 1800px;
   height: 3rem;
   padding: 1.5rem 0;
   position: fixed;
@@ -38,11 +38,11 @@
 }
 
 .active {
-  color: var(--secondary-color-dark);
+  color: var(--secondary-color-light);
 }
 
 .linkTitle:hover {
-  color: var(--secondary-color-light);
+  color: var(--secondary-color-dark);
 }
 
 .button {
@@ -54,11 +54,11 @@
   border: none;
   padding: 0.8rem 1.4rem;
   cursor: pointer;
-  transition: font-size 0.2s ease;
+  transition: transform 0.2s ease-in-out;
 }
 
 .button:hover {
-  font-size: 1.8rem;
+  transform: scale(1.2);
 }
 
 @media (max-width: 768px) {
@@ -71,7 +71,7 @@
   }
   
   .navMenu {
-    gap: 0.5rem;
+    gap: 0.3rem;
   }
 
   .linkTitle {

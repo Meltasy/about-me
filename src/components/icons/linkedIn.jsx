@@ -18,7 +18,6 @@ const LinkedIn = ({ width = 50, height = 50 }) => {
         role="img"
         aria-labelledby="linkedInTitle"
         focusable="true"
-        style={{ cursor: 'pointer' }}
       >
         <title id="linkedInTitle">LinkedIn</title>
         <path

@@ -48,6 +48,8 @@
   text-align: center;
   transition: all 0.2s ease;
   white-space: nowrap;
+  transition: color 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
 .button:hover {
