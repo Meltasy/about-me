@@ -33,7 +33,7 @@ Check out [My Website](https://melissa-vialaneix.netlify.app/)!
 
 ## Local Installation
 
-Prerequisite: Node.js v22.19.0
+Prerequisite: Node.js v22.12.0
 
 1. Clone the repository: `git clone git@github.com:Meltasy/about-me.git`
 2. Set up the frontend: `cd about-me` and `npm install`
