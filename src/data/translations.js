@@ -132,6 +132,22 @@ const translations = {
           ],
           skillsIcons: [Html, Css, JavaScript, React, ViteJS],
           imageKey: 'shoppingCart'
+        },
+        {
+          id: 4,
+          title: 'Battleship',
+          previewUrl: 'https://meltasy.github.io/battleship/',
+          githubUrl: 'https://github.com/Meltasy/battleship',
+          description: `A modern web version of the classic Battleship strategy game featuring an intelligent AI 
+          opponent and nostalgic 80s-inspired design.`,
+          solutions: [
+            '🚢 Intuitive Gameplay: Streamlined controls for ship placement and strategic combat',
+            '🎯 AI Opponent: Intelligent computer player with adaptive targeting algorithms',
+            '💻 Retro Aesthetic: Nostalgic 80s-inspired interface honoring the classic board game',
+            '🔬 Comprehensive Testing: Built using Test Driven Development (TDD) methodology ensuring robust functionality'
+          ],
+          skillsIcons: [Html, Css, JavaScript, Webpack],
+          imageKey: 'battleship'
         }
       ]
     },
@@ -299,6 +315,23 @@ const translations = {
           ],
           skillsIcons: [Html, Css, JavaScript, React, ViteJS],
           imageKey: 'shoppingCart'
+        },
+        {
+          id: 4,
+          title: 'Battleship',
+          previewUrl: 'https://meltasy.github.io/battleship/',
+          githubUrl: 'https://github.com/Meltasy/battleship',
+          description: `Une version web moderne du jeu de stratégie classique Battleship, avec un adversaire IA 
+          intelligent et un design nostalgique inspiré des années 80.`,
+          solutions: [
+            '🚢 Gameplay intuitif : commandes simplifiées pour le placement des navires et les combats stratégiques',
+            '🎯 Adversaire IA : joueur informatique intelligent avec des algorithmes de ciblage adaptatifs',
+            '💻 Esthétique rétro : interface nostalgique inspirée des années 80 rendant hommage au jeu de société classique',
+            `🔬 Tests complets : développé à l'aide de la méthodologie TDD (Test Driven Development) garantissant une 
+            fonctionnalité robuste`
+          ],
+          skillsIcons: [Html, Css, JavaScript, Webpack],
+          imageKey: 'battleship'
         }
       ]
     },
