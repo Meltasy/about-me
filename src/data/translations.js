@@ -41,7 +41,7 @@ const translations = {
       linkedIn: 'Visit my LinkedIn profile',
       gitHub: 'Visit my GitHub profile',
       CV: 'Download my CV',
-      CVName: '/MelissaVialaneixCV2025EnFr.pdf'
+      CVName: '/MelissaVialaneixCVWebDevBi.pdf'
     },
     welcome: {
       summary: `Having recently changed direction in my career and trained as a full stack web developer, 
@@ -210,7 +210,7 @@ const translations = {
       linkedIn: 'Visitez mon profil LinkedIn',
       gitHub: 'Visitez mon profil GitHub',
       CV: 'Télécharger mon CV',
-      CVName: '/MelissaVialaneixCV2025FrEn.pdf'
+      CVName: '/MelissaVialaneixCVDevWebBi.pdf'
     },
     welcome: {
       summary: `Ayant récemment changé d'orientation professionnelle et suivi une formation de développeuse web 
