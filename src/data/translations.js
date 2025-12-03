@@ -31,7 +31,7 @@ const translations = {
     },
     header: {
       name: 'Melissa Vialaneix',
-      title: 'Web Developer',
+      title: 'Developer',
       title1: 'Front End',
       title2: 'Back End',
       title3: 'Full Stack'
@@ -41,12 +41,13 @@ const translations = {
       linkedIn: 'Visit my LinkedIn profile',
       gitHub: 'Visit my GitHub profile',
       CV: 'Download my CV',
-      CVName: '/MelissaVialaneixCVWebDevBi.pdf'
+      CVName: '/MelissaVialaneixCVDevEnFr.pdf'
     },
     welcome: {
-      summary: `Having recently changed direction in my career and trained as a full stack web developer, 
-      I'm looking for an in-house position with a team who will benefit from the skills and experience I 
-      bring from previous roles, and offer me a place where I can learn and grow as a junior developer.`,
+      summary: `I'm looking for a position as a Full Stack Developer with a team who will benefit from my 
+      skills and experience gained from previous roles and offer me a place where I can learn and grow as 
+      a junior developer. I bring several years' experience working as a Learning Designer, Product Manager, 
+      Writer and Editor, and several years' experience teaching English in China and Taiwan.`,
       strapline: 'Get in touch if you\'re looking for a developer who constantly asks herself ... ',
       question: 'What\'s the next problem for me to solve?',
       emailMe: 'Email me'
@@ -71,7 +72,7 @@ const translations = {
     },
     projects: {
       subTitle: 'Features',
-      buttons: ['Preview', 'Code'],
+      buttons: ['Preview', 'Source Code'],
       apps: [
         {
           id: 1,
@@ -200,7 +201,7 @@ const translations = {
     },
     header: {
       name: 'Mélissa Vialaneix',
-      title: 'Développeur Web',
+      title: 'Développeur',
       title1: 'Front End',
       title2: 'Back End',
       title3: 'Full Stack'
@@ -210,13 +211,14 @@ const translations = {
       linkedIn: 'Visitez mon profil LinkedIn',
       gitHub: 'Visitez mon profil GitHub',
       CV: 'Télécharger mon CV',
-      CVName: '/MelissaVialaneixCVDevWebBi.pdf'
+      CVName: '/MelissaVialaneixCVDevFrEn.pdf'
     },
     welcome: {
-      summary: `Ayant récemment changé d'orientation professionnelle et suivi une formation de développeuse web 
-      full stack, je recherche un poste en interne au sein d'une équipe qui pourra bénéficier des compétences et 
-      de l'expérience que j'apporte de mes fonctions précédentes, et qui m'offrira un environnement où je pourrai 
-      apprendre et évoluer en tant que développeuse junior.`,
+      summary: `Je recherche un poste de développeuse full stack au sein d'une équipe qui pourra bénéficier de mes 
+      compétences et de l'expérience que j'apporte de mes fonctions précédentes, et qui m'offrira un environnement où je 
+      pourrai apprendre et évoluer en tant que développeuse junior. J'apporte plusieurs années d'expérience en tant que 
+      chef de produit, conceptrice pédagogique, écrivain et responsable d'édition, ainsi que plusieurs années d'expérience 
+      dans l'enseignement de l'anglais en Chine et à Taïwan.`,
       strapline: 'N\'hésitez pas à me contacter si vous recherchez une développeuse qui se demande constamment ... ',
       question: 'Quel est le prochain problème que je vais résoudre ?',
       emailMe: 'Écrivez-moi'
@@ -246,7 +248,7 @@ const translations = {
       apps: [
         {
           id: 1,
-          title: 'App de blog',
+          title: 'Blog App',
           previewUrl: 'https://blog-api-view.netlify.app/',
           githubUrl: 'https://github.com/Meltasy/blog-api',
           description: `Une plateforme de blog avec une API backend prenant en charge un site public pour 
@@ -270,7 +272,7 @@ const translations = {
         },
         {
           id: 2,
-          title: 'App de vin',
+          title: 'Wine App',
           previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
           githubUrl: 'https://github.com/Meltasy/inventory-application',
           description: `Un système de gestion d'inventaire pour cataloguer, suivre et gérer les vins d'une 
@@ -295,7 +297,7 @@ const translations = {
         },
         {
           id: 3,
-          title: 'App d\'achat',
+          title: 'Shopping App',
           previewUrl: 'https://meltasy-shopping-cart.netlify.app/',
           githubUrl: 'https://github.com/Meltasy/shopping-cart',
           description: `Une application e-commerce moderne qui permet aux acheteurs de parcourir les produits 
