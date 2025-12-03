@@ -1,7 +1,7 @@
 .mainWrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr min-content 1fr;
   gap: 2rem;
 }
 
@@ -43,7 +43,7 @@
   grid-column: 1;
   grid-row: 2;
   align-self: center;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .straplineBox {

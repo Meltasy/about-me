@@ -54,20 +54,23 @@ const translations = {
     },
     aboutMe: {
       summary: [
-        `I've recently changed direction in my career and have trained as a full stack web developer 
-        after working as a Learning Designer, Product Manager, Writer and Editor in educational publishing 
-        for over a decade. I'm looking for a position within a company where I can work within a team of 
-        developers of differing experiences, bringing with me a range of skills and experience from my 
-        previous roles.`,
-        `As a junior developer, I'd love to work with developers from whom I can learn from and grow 
-        within this new role. My love of learning and curiosity in the ever-evolving world of web 
+        `I'm looking for a position as a Full Stack Developer within a company where I can work with a team 
+        of developers of differing experiences, bringing with me a range of skills and experience from my 
+        previous roles. As a junior developer, I'd love to work with developers from whom I can learn from 
+        and grow within this new role. My love of learning and curiosity in the ever-evolving world of web 
         development continue to drive me, with the same question always on the tip of my tongue ... What's 
         the next problem for me to solve?`,
-        `My decision to change career came from my lifelong love of problem solving and years of working 
-        alongside software engineers in the educational publishing industry, with a growing fascination in 
-        their work. It also stems from my university days when I studied web development and created a 
-        website in Dreamweaver MX using Flash for animations! Being able to compare the strides we've made 
-        in web development since then has driven my desire to continue my learning journey.`
+        `Having worked alongside software engineers in the educational publishing industry, with a growing 
+        fascination in their work, I decided to retrain as a Full Stack Developer. My passion in this field 
+        started during my university days when I studied web development and created a website in Dreamweaver 
+        MX using Flash for animations! Being able to compare the strides we've made in web development since 
+        then has driven my desire to continue my learning journey.`,
+        `I chose to study full-stack web development with The Odin Project because it mirrors real-world 
+        development - it required me to read documentation, debug independently, and build projects without 
+        instructor hand-holding. Completing this self-paced course demonstrates I can take ownership of my 
+        learning, troubleshoot problems without immediate guidance, and push through challenges with no clear 
+        solution. These skills translate directly: the curiosity to explore unfamiliar tools, the grit to 
+        debug stubborn errors, and the self-direction to adapt as technology evolves.`
       ]
     },
     projects: {
@@ -225,21 +228,24 @@ const translations = {
     },
     aboutMe: {
       summary: [
-        `J'ai récemment changé d'orientation professionnelle et me suis formée en tant que développeuse web full stack 
-        après avoir travaillé dans l'édition éducative pendant plus d'une décennie en tant que conceptrice pédagogique, 
-        chef de produit, écrivain et responsable d'édition. Je recherche un poste au sein d'une entreprise où je pourrais 
-        travailler dans une équipe de développeurs aux expériences variées, en apportant avec moi un éventail de 
-        compétences et d'expérience issues de mes fonctions précédentes.`,
-        `En tant que développeuse junior, j'aimerais travailler avec des développeurs auprès desquels je pourrai 
-        apprendre et évoluer dans ce nouveau rôle. Mon goût pour l'apprentissage et ma curiosité dans le monde en 
-        constante évolution du développement web continuent de me motiver, avec la même question toujours sur le bout de 
-        la langue ... Quel est le prochain problème que je vais résoudre ?`,
-        `Ma décision de me reconvertir est née de mon goût profond pour la résolution de problèmes et de mes années de 
-        collaboration avec des ingénieurs logiciels dans le domaine de l'édition éducative, où j'ai développé une 
-        fascination croissante pour leur travail. Elle remonte aussi à mes années universitaires, lorsque j'ai étudié le 
-        développement web et créé un site internet avec Dreamweaver MX en utilisant Flash pour les animations ! Pouvoir 
-        comparer les progrès que nous avons réalisés en développement web depuis lors a nourri mon désir de poursuivre 
-        mon parcours d'apprentissage.`
+        `Je recherche un poste de développeuse full stack au sein d'une entreprise où je pourrais travailler avec une équipe 
+        de développeurs aux expériences variées, en apportant avec moi un éventail de compétences et d'expérience issues de 
+        mes fonctions précédentes. En tant que développeuse junior, j'aimerais travailler avec des développeurs auprès 
+        desquels je pourrai apprendre et évoluer dans ce nouveau rôle. Mon goût pour l'apprentissage et ma curiosité dans le 
+        monde en constante évolution du développement web continuent de me motiver, avec la même question toujours sur le 
+        bout de la langue ... Quel est le prochain problème que je vais résoudre ?`,
+        `Après avoir travaillé aux côtés d'ingénieurs logiciels dans le secteur de l'édition éducative, et de plus en plus 
+        fasciné par leur travail, j'ai décidé de me reconvertir en développeuse full stack. Ma passion pour ce domaine 
+        remonte à mes années universitaires, lorsque j'ai étudié le développement web et créé un site web avec Dreamweaver 
+        MX en utilisant Flash pour les animations ! Pouvoir constater les progrès considérables réalisés dans le 
+        développement web depuis cette époque a alimenté mon désir de poursuivre mon parcours d'apprentissage.`,
+        `J'ai choisi d'étudier le développement web full stack avec The Odin Project car cette formation reflète le 
+        développement en conditions réelles : elle m'a amenée à lire de la documentation, déboguer de manière autonome et 
+        construire des projets sans l'aide d'un instructeur. Avoir mené à bien cette formation en autodidacte démontre ma 
+        capacité à prendre en main mon apprentissage, à résoudre des problèmes sans assistance immédiate, et à relever des 
+        défis sans solution évidente. Ces compétences se transposent directement : la curiosité pour explorer de nouveaux 
+        outils, la persévérance pour déboguer les erreurs les plus tenaces, et l'autonomie nécessaire pour s'adapter à 
+        l'évolution constante des technologies.`
       ]
     },
     projects: {
