@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import styles from '../assets/components/SkillsIcons.module.css'
-import { JavaScript, Html, Css, Express, NodeJS, PostgreSQL, PrismaORM, React, ViteJS, Webpack } from './icons/index'
+import { JavaScript, TypeScript, Html, Css, Express, NodeJS, PostgreSQL, PrismaORM, React, ViteJS, Webpack } from './icons/index'
 
 function SkillsIcons() {
   const [visibleIcons, setVisibleIcons] = useState(new Set())
@@ -8,6 +8,7 @@ function SkillsIcons() {
     <Html key='html' />,
     <Css key='css' />,
     <JavaScript key='js' />,
+    <TypeScript key='ts' />,
     <Webpack key='webpack' />,
     <React key='react' />,
     <ViteJS key='vite' />,
