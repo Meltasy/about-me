@@ -42,36 +42,61 @@ const translations = {
       linkedIn: 'Visit my LinkedIn profile',
       gitHub: 'Visit my GitHub profile',
       CV: 'Download my CV',
-      CVName: '/MelissaVialaneixCVDevEnFr.pdf'
+      CVName: '/MelissaVialaneixCVAltEnFr.pdf'
     },
     welcome: {
-      summary: `I'm looking for a position as a Full Stack Developer with a team who will benefit from my 
-      skills and experience gained from previous roles and offer me a place where I can learn and grow as 
-      a junior developer. I bring several years' experience working as a Learning Designer, Product Manager, 
-      Writer and Editor, and several years' experience teaching English in China and Taiwan.`,
+      summary: `Experienced digital product manager actively transitioning into software development, with 
+      more than ten years of experience leading web, mobile, and interactive digital products for major 
+      international publishers. Strong expertise in the product lifecycle, from roadmap planning to 
+      production deployment, now complemented by hands-on technical skills in full-stack development. 
+      Currently seeking an alternance with a tech company in the Lyon area, ahead of starting a BSc in 
+      Information Systems & Data Management (CNAM Occitanie, September 2026).`,
       strapline: 'Get in touch if you\'re looking for a developer who constantly asks herself ... ',
       question: 'What\'s the next problem for me to solve?',
       emailMe: 'Email me'
     },
     aboutMe: {
       summary: [
-        `I'm looking for a position as a Full Stack Developer within a company where I can work with a team 
-        of developers of differing experiences, bringing with me a range of skills and experience from my 
-        previous roles. As a junior developer, I'd love to work with developers from whom I can learn from 
-        and grow within this new role. My love of learning and curiosity in the ever-evolving world of web 
-        development continue to drive me, with the same question always on the tip of my tongue ... What's 
-        the next problem for me to solve?`,
-        `Having worked alongside software engineers in the educational publishing industry, with a growing 
-        fascination in their work, I decided to retrain as a Full Stack Developer. My passion in this field 
-        started during my university days when I studied web development and created a website in Dreamweaver 
-        MX using Flash for animations! Being able to compare the strides we've made in web development since 
-        then has driven my desire to continue my learning journey.`,
-        `I chose to study full-stack web development with The Odin Project because it mirrors real-world 
-        development - it required me to read documentation, debug independently, and build projects without 
-        instructor hand-holding. Completing this self-paced course demonstrates I can take ownership of my 
-        learning, troubleshoot problems without immediate guidance, and push through challenges with no clear 
-        solution. These skills translate directly: the curiosity to explore unfamiliar tools, the grit to 
-        debug stubborn errors, and the self-direction to adapt as technology evolves.`
+        `My path into software development isn't a sudden change of direction — it's the natural next 
+        step of a career spent at the intersection of technology and content. But to understand that, it 
+        helps to know a little about where I come from.`,
+        `I grew up with a French mother and a British father, which means I've been navigating between 
+        cultures and languages my whole life. After university, I spent a year in Taiwan and six years in 
+        China teaching English, immersing myself completely in those cultures and travelling throughout both 
+        countries whenever I could. I often joke that I'm half British, half French, half Chinese. As Fernand 
+        says in Les Tontons Flingeurs, the fractions don't have to add up.`,
+        `The internet has always been a constant. I was one of those teenagers hunched over a computer in the 
+        early 1990s, chatting to strangers across the globe on CompuServe, long before most people knew what 
+        the internet was. My university degree, split roughly 55% Creative Writing and 45% Mass Communications 
+        with a strong IT and web development thread, reflected that dual interest in language and technology 
+        that has never really gone away.`,
+        `After returning to the UK from China, I moved into educational publishing, first as an editor and 
+        eventually as a digital product manager, leading the development of complex multi-platform products 
+        at Cambridge University Press and Macmillan Education. It was at Macmillan that things shifted. My 
+        managers noticed I had an unusual ability to understand both the editorial and the digital sides of a 
+        project, to speak both languages one could say. I was gradually pulled away from print and given more 
+        and more responsibility for digital products. I started creating guides and templates to help editors, 
+        writers and content creators who were used to working with print materials understand how to work with 
+        developers and digital tools. For some colleagues, I was quite literally a translator between two 
+        worlds.`,
+        `That experience, of standing at the boundary between content and code, and of seeing how much clearer 
+        everything becomes when someone can speak both languages fluently, is what eventually made me want to 
+        cross to the other side entirely. For more than six years running my own business as a digital product 
+        manager, I led 1 to 3 year development cycles for multi-format digital learning products across web, 
+        mobile, interactive whiteboards and apps, coordinating cross-functional teams and managing client 
+        delivery. I understood the product. I understood the users. I understood what the developers were 
+        building. I just wanted to be the one building it.`,
+        `In 2024 I began retraining in earnest, completing The Odin Project's full-stack web development 
+        curriculum, a course I chose specifically because it mirrors real-world development: reading 
+        documentation, debugging independently, building real projects without hand-holding. In April 2026 I 
+        completed a one-month internship at Miratlas, working remotely as part of an agile development team on 
+        two different stacks, contributing to real issues and merge requests, reworking UI, and producing 
+        technical architecture documentation and a user guide for a live product. It confirmed everything I'd 
+        hoped: I love this work.`,
+        `I'm currently looking for an alternance in the Lyon area to complement my BSc in Information Systems 
+        and Data Management at CNAM Occitanie, starting September 2026.`,
+        `You can browse my projects to see what I've been building, and find out a little more about what I 
+        get up to outside of work on the Hobbies page, because there's more to me than git commits.`
       ]
     },
     projects: {
@@ -163,7 +188,9 @@ const translations = {
         trying to find the solution to a tricky problem. It's also enabled me to explore some incredible 
         places and provided me with life-changing experiences, like the time I met a brown bear in the middle 
         of the woods in Quebec, or the time I crested a hill in time to watch the sunset over a glacier in 
-        Iceland. The photos are taken in my current playground in and around Mont Xoldo, in the Pays Basque.`
+        Iceland. The photos were taken in my former playground, around Mont Xoldo in the Basque Country. 
+        Since then, I've started exploring the Grand Parc de Miribel-Jonage which, although extremely flat in 
+        comparison, is a beautiful place to run.`
       },
       {
         title: 'Exploring the world',
@@ -171,18 +198,19 @@ const translations = {
         people from diverse backgrounds and spending time in numerous places throughout the world has opened 
         my eyes to the real world we live in. I was born in county Durham, and have lived in several places 
         in the UK, including Edinburgh, London, Anglesey, Cornwall and Cambridge. As soon as I finished my 
-        studies, I moved to Taiwan, then to China where I spent time in Shanghai and Chengdu. Since then, 
-        I've lived in Montreal and now in the Pays Basque. I'm looking forward to moving again soon ... 
-        somewhere in France, but it'll depend on the best career opportunity!`
+        studies, I moved to Taipei in Taiwan, then to China where I spent time in Shanghai and Chengdu. Since 
+        then, I've lived in Montreal in Quebec, Hendaye in the Pays Basque, and I now live in Lyon, the 
+        gastronomic capital of France.`
       },
       {
         title: 'Growing fruit and vegetables',
-        description: `Since moving to the Pays Basque and into a house with a garden, I've taken up growing 
-        fruit and vegetables. It really helps that the weather here swings between sunny and rainy ... 
-        everything grows so quickly! Although there are limits to what can be grown due to the warmth and 
-        humidity, I've successfully harvested tomatoes, aubergines, a range of peppers, potatoes, sweet 
+        description: `When I moved to the Pays Basque and into a house with a garden, I took up growing 
+        fruit and vegetables. It really helped that the weather there swung between sunny and rainy ... 
+        everything grew so quickly! Although there were limits to what could be grown due to the warmth and 
+        humidity, I successfully harvested tomatoes, aubergines, a range of peppers, potatoes, sweet 
         potatoes, lettuce, okra, beetroot, cucumbers, courgettes, apples, limes, blueberries, strawberries, 
-        raspberries and blackberries. I'm looking forward to seeing what the next harvest will bring!`
+        raspberries and blackberries. Now that I live in a completely different climate, I'll need to learn 
+        what grows well here ... I wonder what the next harvest will bring!`
       }
     ]
   },
@@ -215,38 +243,61 @@ const translations = {
       linkedIn: 'Visitez mon profil LinkedIn',
       gitHub: 'Visitez mon profil GitHub',
       CV: 'Télécharger mon CV',
-      CVName: '/MelissaVialaneixCVDevFrEn.pdf'
+      CVName: '/MelissaVialaneixCVAltFrEn.pdf'
     },
     welcome: {
-      summary: `Je recherche un poste de développeuse full stack au sein d'une équipe qui pourra bénéficier de mes 
-      compétences et de l'expérience que j'apporte de mes fonctions précédentes, et qui m'offrira un environnement où je 
-      pourrai apprendre et évoluer en tant que développeuse junior. J'apporte plusieurs années d'expérience en tant que 
-      chef de produit, conceptrice pédagogique, écrivain et responsable d'édition, ainsi que plusieurs années d'expérience 
-      dans l'enseignement de l'anglais en Chine et à Taïwan.`,
+      summary: `Cheffe de produit digital expérimentée, en reconversion active vers le développement logiciel, avec plus 
+      de dix ans d'expérience dans le pilotage de produits numériques web, mobile et interactifs pour de grands éditeurs 
+      internationaux. Solide culture du cycle de vie produit, de la roadmap à la mise en production, que je complète 
+      aujourd'hui par des compétences techniques concrètes en développement full-stack. Actuellement à la recherche d'une 
+      alternance dans une entreprise tech de la région lyonnaise, en vue d'intégrer une Licence Professionnelle Systèmes 
+      d'Information et Gestion de Données (CNAM Occitanie, septembre 2026).`,
       strapline: 'N\'hésitez pas à me contacter si vous recherchez une développeuse qui se demande constamment ... ',
       question: 'Quel est le prochain problème que je vais résoudre ?',
       emailMe: 'Écrivez-moi'
     },
     aboutMe: {
       summary: [
-        `Je recherche un poste de développeuse full stack au sein d'une entreprise où je pourrais travailler avec une équipe 
-        de développeurs aux expériences variées, en apportant avec moi un éventail de compétences et d'expérience issues de 
-        mes fonctions précédentes. En tant que développeuse junior, j'aimerais travailler avec des développeurs auprès 
-        desquels je pourrai apprendre et évoluer dans ce nouveau rôle. Mon goût pour l'apprentissage et ma curiosité dans le 
-        monde en constante évolution du développement web continuent de me motiver, avec la même question toujours sur le 
-        bout de la langue ... Quel est le prochain problème que je vais résoudre ?`,
-        `Après avoir travaillé aux côtés d'ingénieurs logiciels dans le secteur de l'édition éducative, et de plus en plus 
-        fasciné par leur travail, j'ai décidé de me reconvertir en développeuse full stack. Ma passion pour ce domaine 
-        remonte à mes années universitaires, lorsque j'ai étudié le développement web et créé un site web avec Dreamweaver 
-        MX en utilisant Flash pour les animations ! Pouvoir constater les progrès considérables réalisés dans le 
-        développement web depuis cette époque a alimenté mon désir de poursuivre mon parcours d'apprentissage.`,
-        `J'ai choisi d'étudier le développement web full stack avec The Odin Project car cette formation reflète le 
-        développement en conditions réelles : elle m'a amenée à lire de la documentation, déboguer de manière autonome et 
-        construire des projets sans l'aide d'un instructeur. Avoir mené à bien cette formation en autodidacte démontre ma 
-        capacité à prendre en main mon apprentissage, à résoudre des problèmes sans assistance immédiate, et à relever des 
-        défis sans solution évidente. Ces compétences se transposent directement : la curiosité pour explorer de nouveaux 
-        outils, la persévérance pour déboguer les erreurs les plus tenaces, et l'autonomie nécessaire pour s'adapter à 
-        l'évolution constante des technologies.`
+        `Ma reconversion vers le développement logiciel n'est pas un virage à 180 degrés — c'est la suite logique d'une 
+        carrière passée à l'intersection de la technologie et du contenu. Mais pour comprendre ça, il faut savoir d'où je 
+        viens.`,
+        `J'ai grandi avec une mère française et un père britannique, ce qui fait que je navigue entre les cultures et les 
+        langues depuis toujours. Après l'université, j'ai passé un an à Taïwan et six ans en Chine à enseigner l'anglais, en 
+        m'immergeant complètement dans ces cultures et en voyageant dans les deux pays dès que j'en avais l'occasion. Je dis 
+        souvent en plaisantant que je suis à moitié britannique, à moitié française, à moitié chinoise. Comme dirait Fernand 
+        dans Les Tontons Flingeurs, les fractions, ça ne s'additionne pas forcément.`,
+        `Internet, en revanche, a toujours été une constante. J'étais de ces ados penchées sur un ordinateur au début des 
+        années 90, à discuter avec des inconnus aux quatre coins du monde sur CompuServe, bien avant que la plupart des gens 
+        sachent ce qu'était internet. Ma licence, partagée à peu près entre 55% création littéraire et 45% communications de 
+        masse avec un solide fil conducteur en informatique et développement web, reflétait cet intérêt double pour le 
+        langage et la technologie qui ne m'a jamais vraiment quittée.`,
+        `De retour au Royaume-Uni après la Chine, je me suis tournée vers l'édition éducative, d'abord comme responsable 
+        d'édition, puis comme cheffe de produit digital, pilotant le développement de produits numériques multi-plateformes 
+        complexes chez Cambridge University Press et Macmillan Education. C'est chez Macmillan que les choses ont basculé. 
+        Mes managers ont remarqué que j'avais une capacité particulière à comprendre à la fois le côté éditorial et le côté 
+        digital d'un projet, à parler les deux langages, si l'on peut dire. On m'a progressivement éloignée des produits 
+        print pour me confier de plus en plus de responsabilités sur les produits numériques. J'ai commencé à créer des 
+        guides et des templates pour aider les éditeurs, auteurs et créateurs de contenus habitués au print à comprendre 
+        comment travailler avec des développeurs et des outils numériques. Pour certains collègues, j'étais littéralement 
+        une traductrice entre deux mondes.`,
+        `C'est cette expérience, d'avoir été à la frontière entre le contenu et le code, et d'avoir vu à quel point tout 
+        devient plus clair quand quelqu'un parle couramment les deux langages, qui m'a finalement donné envie de franchir 
+        complètement cette frontière. Pendant plus de six ans à la tête de ma propre structure en tant que cheffe de 
+        produit digital, j'ai piloté des cycles de développement de 1 à 3 ans pour des produits pédagogiques numériques 
+        multi-formats sur web, mobile, TNI et application, en coordonnant des équipes transverses et en gérant les 
+        livraisons clients. Je comprenais le produit. Je comprenais les utilisateurs. Je comprenais ce que les développeurs 
+        construisaient. Je voulais juste être celle qui construisait.`,
+        `En 2024, j'ai commencé à me former sérieusement, en suivant le cursus de développement web full-stack de The Odin 
+        Project, une formation que j'ai choisie précisément parce qu'elle reflète le développement en conditions réelles : 
+        lire de la documentation, déboguer de manière autonome, construire de vrais projets sans filet. En avril 2026, j'ai 
+        effectué un stage d'un mois chez Miratlas, en travaillant à distance au sein d'une équipe de développement agile 
+        sur deux stacks différentes, en contribuant à de vraies issues et merge requests, en refondant des interfaces et en 
+        rédigeant de la documentation technique et un guide utilisateur pour un produit en production. Ça a confirmé tout 
+        ce que j'espérais : j'adore ce travail.`,
+        `Je suis actuellement à la recherche d'une alternance dans la région lyonnaise, dans le cadre de ma Licence Pro 
+        Systèmes d'Information et Gestion de Données au CNAM Occitanie, à partir de septembre 2026.`,
+        `Vous pouvez parcourir mes projets pour voir ce que j'ai construit, et en apprendre un peu plus sur ce que je fais 
+        en dehors du travail sur la page Loisirs, parce qu'il n'y a pas que les git commits dans la vie.`
       ]
     },
     projects: {
@@ -351,7 +402,9 @@ const translations = {
         je cherche à résoudre un problème complexe. Cela m'a également permis d'explorer des lieux incroyables et de 
         vivre des expériences marquantes : comme le jour où j'ai croisé un ours brun en pleine forêt au Québec, ou 
         celui où j'ai atteint le sommet d'une colline juste à temps pour admirer le coucher de soleil sur un glacier en 
-        Islande. Les photos ont été prises dans mon terrain de jeu actuel, autour du Mont Xoldo, au Pays basque.`
+        Islande. Les photos ont été prises sur mon ancien terrain de jeu, autour du Mont Xoldo, au Pays basque. Depuis, 
+        j'ai commencé à explorer le Grand Parc de Miribel-Jonage qui, même s'il est extrêmement plat en comparaison, est 
+        un très bel endroit pour courir.`
       },
       {
         title: 'Explorer le monde',
@@ -359,18 +412,18 @@ const translations = {
         d'horizons divers et passer du temps dans de nombreux endroits à travers le monde m'a ouvert les yeux sur le 
         monde réel dans lequel nous vivons. Je suis née dans le comté de Durham et j'ai vécu dans plusieurs endroits au 
         Royaume-Uni, notamment à Édimbourg, Londres, Anglesey, en Cornouailles et à Cambridge. Dès que j'ai terminé mes 
-        études, j'ai déménagé à Taïwan, puis en Chine où j'ai vécu à Shanghai et Chengdu. Depuis, j'ai vécu à Montréal et 
-        maintenant au Pays basque. J'ai hâte de déménager à nouveau bientôt ... quelque part en France, mais cela dépendra 
-        de la meilleure opportunité professionnelle !`
+        études, j'ai déménagé à Taipei, à Taïwan, puis en Chine où j'ai vécu à Shanghai et Chengdu. Depuis, j'ai vécu à 
+        Montréal, au Québec à Hendaye, au Pays basque, et je vis maintenant à Lyon, la capitale gastronomique de la France.`
       },
       {
         title: 'Cultiver des fruits et légumes',
-        description: `Depuis mon installation au Pays Basque, dans une maison avec jardin, je me suis mise à cultiver des 
-        fruits et légumes. Le climat alternant entre soleil et pluie facilite grandement les choses ... tout pousse très 
-        vite ! Bien qu'il y ait des limites à ce qui peut être cultivé, j'ai réussi à récolter des tomates, des aubergines, 
-        des piments, des poivrons, des pommes de terre, des patates douces, de la laitue, du gombo, des betteraves, des 
-        concombres, des courgettes, des pommes, des citrons verts, des myrtilles, des fraises, des framboises et des mûres. 
-        J'ai hâte de voir ce que la prochaine récolte apportera !`
+        description: `Quand je vivais au Pays Basque, dans une maison avec jardin, je m'étais mise à cultiver des fruits 
+        et légumes. Le climat alternant entre soleil et pluie facilitait grandement les choses ... tout poussait très 
+        vite ! Bien qu'il y ait eu des limites à ce qui pouvait être cultivé, j'avais réussi à récolter des tomates, des 
+        aubergines, des piments, des poivrons, des pommes de terre, des patates douces, de la laitue, du gombo, des 
+        betteraves, des concombres, des courgettes, des pommes, des citrons verts, des myrtilles, des fraises, des 
+        framboises et des mûres. Maintenant que je vis dans un climat complètement différent, il va falloir que j'apprenne 
+        ce qui pousse bien ici ... je me demande ce que la prochaine récolte me réservera !`
       }
     ]
   }

@@ -16,20 +16,23 @@ function AboutMe() {
       <main className={styles.mainWrapper}>
         <div className={styles.summaryBoxOne}>
           <p>{translations.aboutMe.summary[0]}</p>
+          <p>{translations.aboutMe.summary[1]}</p>
+          <p>{translations.aboutMe.summary[2]}</p>
+          <p>{translations.aboutMe.summary[3]}</p>
         </div>
         <div className={styles.imageBoxGarden}>
           <img src={myGardenBig} alt='Melissa in her garden' className={styles.imageGardenBig}/>
           <img src={myGardenSml} alt='Melissa in her garden' className={styles.imageGardenSml}/>
         </div>
-        <div className={styles.summaryBoxTwo}>
-          <p>{translations.aboutMe.summary[1]}</p>
-        </div>
         <div className={styles.imageBoxOffice}>
           <img src={myOfficeBig} alt='Melissa in her office' className={styles.imageOfficeBig}/>
           <img src={myOfficeSml} alt='Melissa in her office' className={styles.imageOfficeSml}/>
         </div>
-        <div className={styles.summaryBoxThree}>
-          <p>{translations.aboutMe.summary[2]}</p>
+        <div className={styles.summaryBoxTwo}>
+          <p>{translations.aboutMe.summary[4]}</p>
+          <p>{translations.aboutMe.summary[5]}</p>
+          <p>{translations.aboutMe.summary[6]}</p>
+          <p>{translations.aboutMe.summary[7]}</p>
         </div>
       </main>
     </>
