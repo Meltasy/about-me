@@ -1,6 +1,6 @@
 import {
   JavaScript,
-  // TypseScript,
+  TypeScript,
   Html,
   Css,
   Express,
@@ -105,6 +105,24 @@ const translations = {
       apps: [
         {
           id: 1,
+          title: 'Chat App',
+          previewUrl: 'https://github.com/Meltasy/chat-app-front',
+          githubUrl: 'https://github.com/Meltasy/chat-app-front',
+          description: `A full-stack real-time chat app supporting direct messages and group chats, with live message 
+          delivery powered by Socket.IO.`,
+          solutions: [
+            '💬 Real-time messaging: Instant message delivery using Socket.IO — no refresh needed',
+            '📱 Responsive design: Optimized layout that adapts easily to mobile and desktop screens',
+            '👥 Flexible chat types: Create direct messages with one person or group chats with multiple members',
+            '🛠️ Full message lifecycle: Send, edit, and delete your own messages with live updates for all members',
+            '👮 Role-based access control: Admins can rename their groups, add and remove members, and delete the chat',
+            '🔒 Enhanced security: Protected routes and authenticated sessions throughout'
+          ],
+          skillsIcons: [TypeScript, JavaScript, React, ViteJS, NodeJS, Express, PostgreSQL, PrismaORM],
+          imageKey: 'chatApp'
+        },
+        {
+          id: 2,
           title: 'Blog App',
           previewUrl: 'https://blog-api-view.netlify.app/',
           githubUrl: 'https://github.com/Meltasy/blog-api',
@@ -123,7 +141,7 @@ const translations = {
           imageKey: 'blogApi'
         },
         {
-          id: 2,
+          id: 3,
           title: 'Wine App',
           previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
           githubUrl: 'https://github.com/Meltasy/inventory-application',
@@ -143,7 +161,7 @@ const translations = {
           imageKey: 'inventoryApp'
         },
         {
-          id: 3,
+          id: 4,
           title: 'Shopping App',
           previewUrl: 'https://meltasy-shopping-cart.netlify.app/',
           githubUrl: 'https://github.com/Meltasy/shopping-cart',
@@ -164,7 +182,7 @@ const translations = {
           imageKey: 'shoppingCart'
         },
         {
-          id: 4,
+          id: 5,
           title: 'Battleship',
           previewUrl: 'https://meltasy.github.io/battleship/',
           githubUrl: 'https://github.com/Meltasy/battleship',
@@ -306,6 +324,27 @@ const translations = {
       apps: [
         {
           id: 1,
+          title: 'Chat App',
+          previewUrl: 'https://github.com/Meltasy/chat-app-front',
+          githubUrl: 'https://github.com/Meltasy/chat-app-front',
+          description: `A full-stack real-time chat app supporting direct messages and group chats, with live message 
+          delivery powered by Socket.IO.`,
+          solutions: [
+            '💬 Messagerie en temps réel : Envoi instantané des messages grâce à Socket.IO — sans rechargement de page',
+            '📱 Design responsive : Interface optimisée pour une adaptation fluide aux écrans mobiles et desktop',
+            `👥 Types de conversations flexibles : Créez des chats privés ou des conversations de groupe avec plusieurs 
+            membres`,
+            `🛠️ Cycle de vie complet des messages : Envoyez, modifiez et supprimez vos messages en temps réel pour tous 
+            les membres`,
+            `'👮 Contrôle d'accès par rôles : Les admins peuvent renommer leurs groupes, ajouter ou supprimer des membres, 
+            et supprimer le chat`,
+            '🔒 Sécurité renforcée : Routes protégées et sessions authentifiées tout au long du processus'
+          ],
+          skillsIcons: [TypeScript, JavaScript, React, ViteJS, NodeJS, Express, PostgreSQL, PrismaORM],
+          imageKey: 'chatApp'
+        },
+        {
+          id: 2,
           title: 'Blog App',
           previewUrl: 'https://blog-api-view.netlify.app/',
           githubUrl: 'https://github.com/Meltasy/blog-api',
@@ -329,7 +368,7 @@ const translations = {
           imageKey: 'blogApi'
         },
         {
-          id: 2,
+          id: 3,
           title: 'Wine App',
           previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
           githubUrl: 'https://github.com/Meltasy/inventory-application',
@@ -354,7 +393,7 @@ const translations = {
           imageKey: 'inventoryApp'
         },
         {
-          id: 3,
+          id: 4,
           title: 'Shopping App',
           previewUrl: 'https://meltasy-shopping-cart.netlify.app/',
           githubUrl: 'https://github.com/Meltasy/shopping-cart',
@@ -377,7 +416,7 @@ const translations = {
           imageKey: 'shoppingCart'
         },
         {
-          id: 4,
+          id: 5,
           title: 'Battleship',
           previewUrl: 'https://meltasy.github.io/battleship/',
           githubUrl: 'https://github.com/Meltasy/battleship',
