@@ -336,7 +336,7 @@ const translations = {
             membres`,
             `🛠️ Cycle de vie complet des messages : Envoyez, modifiez et supprimez vos messages en temps réel pour tous 
             les membres`,
-            `'👮 Contrôle d'accès par rôles : Les admins peuvent renommer leurs groupes, ajouter ou supprimer des membres, 
+            `👮 Contrôle d'accès par rôles : Les admins peuvent renommer leurs groupes, ajouter ou supprimer des membres, 
             et supprimer le chat`,
             '🔒 Sécurité renforcée : Routes protégées et sessions authentifiées tout au long du processus'
           ],
