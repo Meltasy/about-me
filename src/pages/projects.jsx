@@ -18,24 +18,14 @@ function Projects() {
               <div className={styles.textWrapper}>
                 <div className={styles.headWrapper}>
                   <h3>{project.title}</h3>
-                  <div className={styles.buttonsWrapper}>
-                    <Link
-                      to={project.previewUrl}
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      className={styles.button}
-                    >
-                      {translations.projects.buttons[0]}
-                    </Link>
-                    <Link
-                      to={project.githubUrl}
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      className={styles.button}
-                    >
-                      {translations.projects.buttons[1]}
-                    </Link>
-                  </div>
+                  <Link
+                    to={project.githubUrl}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className={styles.button}
+                  >
+                    {translations.projects.button}
+                  </Link>
                 </div>
                 <p>{project.description}</p>
                 <h4>{trans('projects.subTitle')}</h4>

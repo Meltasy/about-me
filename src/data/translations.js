@@ -38,7 +38,7 @@ const translations = {
       title3: 'Full Stack'
     },
     footer: {
-      copyright: ['Copyright © 2025 Melissa Vialaneix.', 'All rights reserved.'],
+      copyright: ['Copyright © 2026 Melissa Vialaneix.', 'All rights reserved.'],
       linkedIn: 'Visit my LinkedIn profile',
       gitHub: 'Visit my GitHub profile',
       CV: 'Download my CV',
@@ -101,12 +101,11 @@ const translations = {
     },
     projects: {
       subTitle: 'Features',
-      buttons: ['Preview', 'Source Code'],
+      button: 'Source Code',
       apps: [
         {
           id: 1,
           title: 'Chat App',
-          previewUrl: 'https://github.com/Meltasy/chat-app-front',
           githubUrl: 'https://github.com/Meltasy/chat-app-front',
           description: `A full-stack real-time chat app supporting direct messages and group chats, with live message 
           delivery powered by Socket.IO.`,
@@ -124,7 +123,6 @@ const translations = {
         {
           id: 2,
           title: 'Blog App',
-          previewUrl: 'https://blog-api-view.netlify.app/',
           githubUrl: 'https://github.com/Meltasy/blog-api',
           description: `A blog platform with a backend API supporting a public site for readers and a private 
           dashboard for authors.`,
@@ -143,7 +141,6 @@ const translations = {
         {
           id: 3,
           title: 'Wine App',
-          previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
           githubUrl: 'https://github.com/Meltasy/inventory-application',
           description: `An inventory management system to catalog, track and manage the wine in a cellar, 
           with a dynamic dashboard.`,
@@ -163,7 +160,6 @@ const translations = {
         {
           id: 4,
           title: 'Shopping App',
-          previewUrl: 'https://meltasy-shopping-cart.netlify.app/',
           githubUrl: 'https://github.com/Meltasy/shopping-cart',
           description: `A modern e-commerce app that allows shoppers to browse products with detailed 
           information, manage quantities, and track their cart in real-time.`,
@@ -184,7 +180,6 @@ const translations = {
         {
           id: 5,
           title: 'Battleship',
-          previewUrl: 'https://meltasy.github.io/battleship/',
           githubUrl: 'https://github.com/Meltasy/battleship',
           description: `A modern web version of the classic Battleship strategy game featuring an intelligent AI 
           opponent and nostalgic 80s-inspired design.`,
@@ -257,7 +252,7 @@ const translations = {
       title3: 'Full Stack'
     },
     footer: {
-      copyright: ['Copyright © 2025 Mélissa Vialaneix.', 'Tous droits réservés.'],
+      copyright: ['Copyright © 2026 Mélissa Vialaneix.', 'Tous droits réservés.'],
       linkedIn: 'Visitez mon profil LinkedIn',
       gitHub: 'Visitez mon profil GitHub',
       CV: 'Télécharger mon CV',
@@ -320,12 +315,11 @@ const translations = {
     },
     projects: {
       subTitle: 'Caractéristiques',
-      buttons: ['Aperçu', 'Code Source'],
+      button: 'Code Source',
       apps: [
         {
           id: 1,
           title: 'Chat App',
-          previewUrl: 'https://github.com/Meltasy/chat-app-front',
           githubUrl: 'https://github.com/Meltasy/chat-app-front',
           description: `A full-stack real-time chat app supporting direct messages and group chats, with live message 
           delivery powered by Socket.IO.`,
@@ -346,7 +340,6 @@ const translations = {
         {
           id: 2,
           title: 'Blog App',
-          previewUrl: 'https://blog-api-view.netlify.app/',
           githubUrl: 'https://github.com/Meltasy/blog-api',
           description: `Une plateforme de blog avec une API backend prenant en charge un site public pour 
           les lecteurs et un tableau de bord privé pour les auteurs.`,
@@ -370,7 +363,6 @@ const translations = {
         {
           id: 3,
           title: 'Wine App',
-          previewUrl: 'https://inventory-application-production-b054.up.railway.app/',
           githubUrl: 'https://github.com/Meltasy/inventory-application',
           description: `Un système de gestion d'inventaire pour cataloguer, suivre et gérer les vins d'une 
           cave, avec un tableau de bord dynamique.`,
@@ -395,7 +387,6 @@ const translations = {
         {
           id: 4,
           title: 'Shopping App',
-          previewUrl: 'https://meltasy-shopping-cart.netlify.app/',
           githubUrl: 'https://github.com/Meltasy/shopping-cart',
           description: `Une application e-commerce moderne qui permet aux acheteurs de parcourir les produits 
           avec des informations détaillées, de gérer les quantités et de suivre leur panier en temps réel.`,
@@ -418,7 +409,6 @@ const translations = {
         {
           id: 5,
           title: 'Battleship',
-          previewUrl: 'https://meltasy.github.io/battleship/',
           githubUrl: 'https://github.com/Meltasy/battleship',
           description: `Une version web moderne du jeu de stratégie classique Battleship, avec un adversaire IA 
           intelligent et un design nostalgique inspiré des années 80.`,

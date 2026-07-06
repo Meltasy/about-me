@@ -22,17 +22,10 @@
 .headWrapper {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: start;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  justify-items: start;
   gap: 1rem;
-}
-
-.buttonsWrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  gap: 0.5rem;
-  min-width: fit-content;
 }
 
 .button {
