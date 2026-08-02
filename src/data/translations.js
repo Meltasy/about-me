@@ -48,9 +48,7 @@ const translations = {
       summary: `Experienced digital product manager actively transitioning into software development, with 
       more than ten years of experience leading web, mobile, and interactive digital products for major 
       international publishers. Strong expertise in the product lifecycle, from roadmap planning to 
-      production deployment, now complemented by hands-on technical skills in full-stack development. 
-      Currently seeking an alternance with a tech company in the Lyon area, ahead of starting a BSc in 
-      Information Systems & Data Management (CNAM Occitanie, September 2026).`,
+      production deployment, now complemented by hands-on technical skills in full-stack development.`,
       strapline: 'Get in touch if you\'re looking for a developer who constantly asks herself ... ',
       question: 'What\'s the next problem for me to solve?',
       emailMe: 'Email me'
@@ -93,8 +91,6 @@ const translations = {
         two different stacks, contributing to real issues and merge requests, reworking UI, and producing 
         technical architecture documentation and a user guide for a live product. It confirmed everything I'd 
         hoped: I love this work.`,
-        `I'm currently looking for an alternance in the Lyon area to complement my BSc in Information Systems 
-        and Data Management at CNAM Occitanie, starting September 2026.`,
         `You can browse my projects to see what I've been building, and find out a little more about what I 
         get up to outside of work on the Hobbies page, because there's more to me than git commits.`
       ]
@@ -262,9 +258,7 @@ const translations = {
       summary: `Cheffe de produit digital expérimentée, en reconversion active vers le développement logiciel, avec plus 
       de dix ans d'expérience dans le pilotage de produits numériques web, mobile et interactifs pour de grands éditeurs 
       internationaux. Solide culture du cycle de vie produit, de la roadmap à la mise en production, que je complète 
-      aujourd'hui par des compétences techniques concrètes en développement full-stack. Actuellement à la recherche d'une 
-      alternance dans une entreprise tech de la région lyonnaise, en vue d'intégrer une Licence Professionnelle Systèmes 
-      d'Information et Gestion de Données (CNAM Occitanie, septembre 2026).`,
+      aujourd'hui par des compétences techniques concrètes en développement full-stack.`,
       strapline: 'N\'hésitez pas à me contacter si vous recherchez une développeuse qui se demande constamment ... ',
       question: 'Quel est le prochain problème que je vais résoudre ?',
       emailMe: 'Écrivez-moi'
@@ -307,8 +301,6 @@ const translations = {
         sur deux stacks différentes, en contribuant à de vraies issues et merge requests, en refondant des interfaces et en 
         rédigeant de la documentation technique et un guide utilisateur pour un produit en production. Ça a confirmé tout 
         ce que j'espérais : j'adore ce travail.`,
-        `Je suis actuellement à la recherche d'une alternance dans la région lyonnaise, dans le cadre de ma Licence Pro 
-        Systèmes d'Information et Gestion de Données au CNAM Occitanie, à partir de septembre 2026.`,
         `Vous pouvez parcourir mes projets pour voir ce que j'ai construit, et en apprendre un peu plus sur ce que je fais 
         en dehors du travail sur la page Loisirs, parce qu'il n'y a pas que les git commits dans la vie.`
       ]
